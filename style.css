@@ -6,9 +6,22 @@ body {
 table, th, td  {
     border: 1px solid white;
     text-align: center;
-
+    margin: 2rem auto;
+    border-collapse: collapse;
 }
 
 tr:hover {
     background-color: crimson;
+}
+
+.gold{
+    background-color: gold;
+}
+
+.silver{
+    background-color: silver;
+}
+
+.bronze {
+    background-color: #cd7f32;
 }
