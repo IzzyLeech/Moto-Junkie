@@ -26,6 +26,10 @@ tr:hover {
     background-color: #cd7f32;
 }
 
+.ret {
+    background-color: red;
+}
+
 td:first-child+td {
     text-align: left;
 }
