@@ -25,3 +25,7 @@ tr:hover {
 .bronze {
     background-color: #cd7f32;
 }
+
+td:first-child+td {
+    text-align: left;
+}
