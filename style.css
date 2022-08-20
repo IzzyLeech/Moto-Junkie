@@ -3,6 +3,14 @@ body {
     color: white;
 }
 
+#up-races{
+    background-color: blueviolet;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    float: right;
+}
+
 table, th, td  {
     border: 1px solid white;
     text-align: center;
