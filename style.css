@@ -1,12 +1,39 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: grey;
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    display: block;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px black;
+}
+
+header li {
+    display: inline;
+    padding-left:20px ;
+}
+
+header li img {
+    float: left;
+    width: 180px;
+    margin-top: -40px;
+}
+
+header li a:hover {
+    color: crimson;
+}
+
 
 #result {
     background-color: blueviolet;
     width: 33%;
-    margin: 0 auto;
     text-align: center;
     float: left;
 }
@@ -14,9 +41,10 @@ body {
 #up-races{
     background-color: blueviolet;
     width: 33%;
-    margin: 0 auto;
     text-align: center;
     float: right;
+    position: relative;
+    top: 500px;
 }
 
 #leader{
@@ -24,8 +52,10 @@ body {
         width: 33%;
         margin: 0 auto;
         text-align: center;
+        padding-top: 30px;
+        position: relative;
+        top: 500px;
 }
-
 
 table, th, td  {
     border: 1px solid white;
