@@ -11,7 +11,7 @@ header {
     height: 100px;
     padding: 15px;
     display: block;
-    background-color: whitesmoke;
+    background-color: white;
     box-shadow: 0 0 10px black;
 }
 
@@ -22,15 +22,28 @@ header li {
 
 header li img {
     float: left;
-    width: 180px;
-    margin-top: -40px;
+    width: 200px;
+    margin-top: -40px;;
 }
 
 header li a:hover {
     color: crimson;
 }
 
+#outer-img {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+}
 
+#main-img {
+    height: 600px;
+    width: 100%;
+    background: url(./Assets/images/index-logo.jpg) no-repeat center center;
+    object-fit: contain;
+}
 #result {
     background-color: blueviolet;
     width: 33%;
