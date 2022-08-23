@@ -49,7 +49,7 @@ header li a:hover {
     color: crimson;
 }
 
-/*  
+
 #outer-img {
     height: 600px;
     width: 100%;
@@ -61,10 +61,9 @@ header li a:hover {
 #main-img {
     height: 600px;
     width: 100%;
-    background: url(./Assets/images/index-logo.jpg) no-repeat center center;
-    object-fit: contain;
+    background: url(./Assets/images/index-logo.jpg);
 }
-*/
+
 #result {
     background-color: blueviolet;
     width: 33%;
