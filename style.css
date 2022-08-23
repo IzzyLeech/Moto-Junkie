@@ -20,7 +20,7 @@ nav {
     justify-content:space-between;
     border:20px;
     border-style: solid;
-    border-color: white;
+    border-color: grey;
 }
 
 .logo {
@@ -85,6 +85,15 @@ header li a:hover {
         position: relative;
         top: 500px;
 }
+
+#column{
+    column-count: 2;
+    column-rule-style: solid;
+    padding-left: 10px;
+    column-rule-width: 5px;
+}
+
+
 
 table, th, td  {
     border: 1px solid white;
