@@ -87,7 +87,8 @@ header li a:hover {
 }
 
 #column{
-    column-count: 2;
+    background-color: darkgoldenrod;
+    columns: 150px 2;
     column-rule-style: solid;
     padding-left: 10px;
     column-rule-width: 5px;
