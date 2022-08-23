@@ -94,7 +94,13 @@ header li a:hover {
     column-rule-width: 5px;
 }
 
+.rider {
 
+}
+
+.rider img {
+    height: 200px;
+}
 
 table, th, td  {
     border: 1px solid white;
