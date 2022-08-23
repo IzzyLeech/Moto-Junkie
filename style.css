@@ -43,25 +43,21 @@ nav {
     padding: 5px 0;
 }
 
-
-
 header li a:hover {
     color: crimson;
 }
 
-
 #outer-img {
     height: 1280px;
-    width: 1900px;
-    overflow: hidden;
+    width: 100%;
     background-color: black;
     position: relative;
 }
 
 #main-img {
     height: 1280px;
-    width: 1900px;
-    background: url(./Assets/images/index.v1.jpg) no-repeat;
+    width: 100%;
+    background: url(./Assets/images/index.v1.jpg) ;
 }
 
 #result {
