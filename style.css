@@ -75,7 +75,7 @@ header li a:hover {
 }
 
 #last-result {
-    background-color: blueviolet;
+    background-color: white;
     width: 30%;
     border: 4px solid black;
     display: flex;
@@ -105,10 +105,10 @@ header li a:hover {
         display: flex;
         flex-direction: column;
         align-self: flex-end;
-        
+        margin-bottom: 20px;
 }
 
-#column{
+#column {
     background-color: darkgoldenrod;
     columns: 150px 2;
     column-rule-style: solid;
