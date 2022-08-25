@@ -60,30 +60,38 @@ header li a:hover {
     background: url(./Assets/images/index.v1.jpg) ;
 }
 
-#result {
+#main-content {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#last-result {
     background-color: blueviolet;
     width: 33%;
-    text-align: center;
-    float: left;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
 }
 
 #up-races{
-    background-color: blueviolet;
+    background-color: green;
     width: 33%;
-    text-align: center;
-    float: right;
-    position: relative;
-    top: 500px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-#leader{
-    background-color: blueviolet;
+#leader-sec{
+    background-color: red;
         width: 33%;
-        margin: 0 auto;
-        text-align: center;
-        padding-top: 30px;
-        position: relative;
-        top: 500px;
+        border: 4px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 }
 
 #column{
@@ -92,10 +100,6 @@ header li a:hover {
     column-rule-style: solid;
     padding-left: 10px;
     column-rule-width: 5px;
-}
-
-.rider {
-
 }
 
 .rider img {
