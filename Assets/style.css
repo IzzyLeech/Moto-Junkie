@@ -57,7 +57,7 @@ header li a:hover {
 #main-img {
     height: 1280px;
     width: 100%;
-    background: url(./Assets/images/index.v1.jpg) ;
+    background: url(../Assets/images/index.v1.jpg) ;
 }
 
 #main-content {
