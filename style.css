@@ -69,6 +69,11 @@ header li a:hover {
     height: 800px;
 }
 
+#main-content h2 {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
 #last-result {
     background-color: blueviolet;
     width: 30%;
