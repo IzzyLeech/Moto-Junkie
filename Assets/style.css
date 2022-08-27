@@ -105,6 +105,9 @@ header li a:hover {
         margin-bottom: 20px;
 }
 
+.leader img {
+    float: left;
+}
 #column {
     background-color: darkgoldenrod;
     columns: 150px 2;
