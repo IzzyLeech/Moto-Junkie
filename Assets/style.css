@@ -83,11 +83,14 @@ header li a:hover {
 #up-races{
     background-color: white;
     width: 30%;
+    height: 600px;
     border: 4px solid black;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     margin-top: 25px;
+    overflow: scroll;
+
 }
 
 #leader-sec{
