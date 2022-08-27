@@ -143,12 +143,18 @@ table, th, td  {
 #table-1 {
     position: absolute;
     margin-left: 25px;
+    top: 50px;
+}
+
+#champ-head{
+    position: absolute;
+    left: 650px;
 }
 
 #table-2 {
     position: absolute;
     right: 250px;
-    top: 47px;
+    top: 50px;
 }
 
 #table-3 {
@@ -156,7 +162,6 @@ table, th, td  {
     margin-left: 25px;
     bottom: 200px;
 }
-
 
 tr:hover {
     background-color: crimson;
