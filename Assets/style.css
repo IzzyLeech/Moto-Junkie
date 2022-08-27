@@ -147,3 +147,9 @@ tr:hover {
 td:nth-child(2) {
     text-align: left;
 }
+
+/*
+tr td:nth-child(5), th:nth-child(5) {
+    display: none;
+}*/
+
