@@ -57,8 +57,14 @@ header li a:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
+    background-color: green;
     height: 1200px;
+    position: relative;
+}
+
+#celebrate {
+    position: absolute;
+    top: 25px;
 }
 
 #main-content h2 {
