@@ -47,13 +47,6 @@ header li a:hover {
     color: crimson;
 }
 
-#outer-img {
-    height: 1280px;
-    width: 100%;
-    background-color: black;
-    position: relative;
-}
-
 #main-img {
     height: 1280px;
     width: 100%;
