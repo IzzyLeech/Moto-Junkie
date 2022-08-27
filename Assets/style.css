@@ -127,12 +127,36 @@ header li a:hover {
     height: 200px;
 }
 
+#table {
+    background-color: dodgerblue;
+    height: 1200px;
+    position: relative;
+}
+
 table, th, td  {
     border: 1px solid black;
     text-align: center;
     margin: 2rem auto;
     border-collapse: collapse;
 }
+
+#table-1 {
+    position: absolute;
+    margin-left: 25px;
+}
+
+#table-2 {
+    position: absolute;
+    right: 250px;
+    top: 47px;
+}
+
+#table-3 {
+    position: absolute;
+    margin-left: 25px;
+    bottom: 200px;
+}
+
 
 tr:hover {
     background-color: crimson;
