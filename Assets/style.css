@@ -157,10 +157,22 @@ table, th, td  {
     top: 50px;
 }
 
+#anno-head{
+    position: absolute;
+    right: 300px;
+    top: 45px;
+}
+
 #table-3 {
     position: absolute;
-    margin-left: 25px;
+    margin-left: 250px;
     bottom: 200px;
+}
+
+#con-head {
+    position: absolute;
+    left: 650px;
+    bottom: 400px;
 }
 
 tr:hover {
