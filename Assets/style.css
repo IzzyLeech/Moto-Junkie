@@ -76,7 +76,7 @@ header li a:hover {
 #last-result {
     background-color: white;
     width: 30%;
-    height: 600px;
+    height: 800px;
     border: 4px solid black;
     display: flex;
     flex-direction: column;
