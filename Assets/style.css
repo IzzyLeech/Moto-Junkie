@@ -140,14 +140,16 @@ header li a:hover {
 
 #column {
     background-color: darkgoldenrod;
-    columns: 150px 2;
-    column-rule-style: solid;
-    padding-left: 10px;
-    column-rule-width: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
 }
 
-.rider img {
-    height: 200px;
+.rider {
+    width: 50%;
+    height: 50%;
+    display: flex;
 }
 
 #table {
