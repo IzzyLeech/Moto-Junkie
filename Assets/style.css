@@ -149,7 +149,8 @@ header li a:hover {
 .rider {
     width: 50%;
     height: 50%;
-    display: flex;
+    display: inline-flex;
+    margin-top: 30px;
 }
 
 #table {
