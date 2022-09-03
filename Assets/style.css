@@ -147,10 +147,19 @@ header li a:hover {
 }
 
 .rider {
-    width: 50%;
-    height: 50%;
-    display: inline-flex;
+    width: 49%;
+    height: 250px;
+    display: flex;
     margin-top: 30px;
+    padding-top: 20px;
+    border: 1px solid black;
+    margin-left: 8px;
+}
+
+.rider h2 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #table {
