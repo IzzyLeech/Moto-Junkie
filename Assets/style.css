@@ -55,17 +55,8 @@ header li a:hover {
 
 #main-content {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    height: 1200px;
-    position: relative;
-}
-
-#celebrate {
-    position: absolute;
-    top: 25px;
+    flex-wrap: wrap;
+    background-color: blue;
 }
 
 #main-content h2 {
@@ -73,48 +64,80 @@ header li a:hover {
     border-bottom: 2px solid black;
 }
 
-#last-result {
+#up-races {
     background-color: white;
-    width: 30%;
-    height: 800px;
+    width: 50rem;
+    height: 37rem;
     border: 4px solid black;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    margin-top: 25px;
-}
-
-.result img {
-    float:left;
-}
-
-#up-races{
-    background-color: white;
-    width: 30%;
-    height: 600px;
-    border: 4px solid black;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    margin-top: 25px;
     overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 25px;
+    margin-left: 25px;
+}
 
+#track {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        margin-top: 25px;
+        margin-left: 25px;
+        width: 50rem;
 }
 
 #leader-sec{
     background-color: white;
-        width:30%;
-        height: 600px;
+        width:50rem;
+        height: 50rem;
         border: 4px solid black;
         display: flex;
         flex-direction: column;
-        align-self: flex-end;
-        margin-bottom: 20px;
+        align-self: flex-start;
+        margin-top: 25px;
+        margin-left: 25px;
 }
 
 .leader img {
     float: left;
 }
+
+#trophy {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        margin-top: 30px;
+        margin-left: 25px;
+        width: 50rem;
+        height: 50rem;
+}
+
+#last-result {
+    background-color: white;
+    width: 50rem;
+    height: 50rem;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.result img {
+    float: left;
+}
+
+#result{
+    display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        margin-top: 30px;
+        margin-left: 25px;
+        width: 50rem;
+        height: 50rem;
+}
+
 #column {
     background-color: darkgoldenrod;
     columns: 150px 2;
