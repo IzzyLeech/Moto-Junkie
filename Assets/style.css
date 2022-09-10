@@ -139,11 +139,10 @@ header li a:hover {
 }
 
 #column {
-    background-color: darkgoldenrod;
+    background-color: goldenrod;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    
 }
 
 .rider {
@@ -156,7 +155,7 @@ header li a:hover {
     margin-left: 8px;
 }
 
-.rider h2 span{
+.rider h2 span {
     display: flex;
     justify-content: center;
     align-items: center;
