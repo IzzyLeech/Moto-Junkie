@@ -53,6 +53,16 @@ header li a:hover {
     z-index: -1;
 }
 
+#text-box {
+    background-color: brown;
+    width: 15rem;
+    height: 10rem;
+
+    position: absolute;
+    bottom: 10rem;
+    left: 5rem;
+}
+
 #main-content {
     display: flex;
     flex-wrap: wrap;
@@ -88,7 +98,7 @@ header li a:hover {
 
 #leader-sec{
     background-color: white;
-        width:50rem;
+        width: 54rem;
         height: 50rem;
         border: 4px solid black;
         display: flex;
@@ -115,7 +125,7 @@ header li a:hover {
 #last-result {
     background-color: white;
     width: 50rem;
-    height: 50rem;
+    height: 54rem;
     border: 4px solid black;
     display: flex;
     flex-direction: column;
@@ -134,8 +144,8 @@ header li a:hover {
         align-self: flex-start;
         margin-top: 30px;
         margin-left: 25px;
-        width: 50rem;
-        height: 50rem;
+        width: 54rem;
+        height: 54rem;
 }
 
 #column {
@@ -238,3 +248,27 @@ tr td:nth-child(5), th:nth-child(5) {
     display: none;
 }*/
 
+#sign-up {
+    height: 50rem;
+    width: 100%;
+    position: relative;
+}
+
+#form-image {
+    height: 50rem;
+    width: 100%;
+    background: url(../Assets/images/form-image.jpg) no-repeat center top;
+}
+
+#signup-form {
+    margin:300px 450px;
+    padding: 50px;
+    width: 200px;
+
+    color: white;
+    background-color: grey;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

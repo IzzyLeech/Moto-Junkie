@@ -22,17 +22,15 @@
             </ul>
         </nav>
         <div id="main-img"></div>
+        <div id="text-box">
+            <h3>Sign Up For Newsletter To Keep up to Date</h3>
+        </div>
     </header>
 
     <section id="main-content">
         
         <div id="up-races"><a id="info"></a>
             <h2>Upcoming Races</h2>
-            <div class="race">
-                <p>San Marino motorcycle Grand Prix</p>
-                <p>4 September</p>
-                <p>Misano World Circuit Marco Simoncelli</p>
-            </div>
             <div class="race">
                 <p>Aragon motorcycle Grand Prix</p>
                 <p>18 September</p>
@@ -75,42 +73,42 @@
                 <p>1st</p>
                 <img src="./Assets/images/riders/Fabio.png" alt="Fabio Quartararo"><p>Fabio Quartararo</p>
                 <p>Yamaha</p>
-                <p>200 Pts</p>
+                <p>211 Pts</p>
             </div>
             <div class="leader">
                 <p>2nd</p>
                 <img src="./Assets/images/riders/Aleix.png" alt="Aleix Espargaro"><p>Aleix Espargaró</p>
                 <p>Aprilia</p>
-                <p>168 Pts</p>
+                <p>1181 Pts</p>
             </div>
             <div class="leader">
                 <p>3rd</p>
                 <img src="./Assets/images/riders/Francesco.png" alt="Francesco Bagnaia"><p>Francesco Bagnaia</p>
                 <p>Ducati</p>
-                <p>156</p>
+                <p>178</p>
             </div>
         </div>
     
         <div id="last-result">
             <h2>Latest Result</h2>
+            <h3>San Marino and Rimini Riviera motorcycle Grand Prix</h3>
             <div class="result">
                 <p>1st</p>
                 <img src="./Assets/images/riders/Francesco.png" alt="Francesco Bagnaia">
                 <p>Francesco Bagnaia</p>
                 <p>Ducati</p>
             </div>
-
             <div class="result">
                 <p>2nd</p>
-                <img src="./Assets/images/riders/Fabio.png" alt="Fabio Quartararo">
-                <p>Fabio Quartararo</p>
-                <p>Yamaha</p>
+                <img src="./Assets/images/riders/Enea.png" alt="Enea Bastianini">
+                <p>Enea Bastianini</p>
+                <p>Ducati</p>
             </div>
             <div class="result">
                 <p>3rd</p>
-                <img src="./Assets/images/riders/Jack.png" alt="Jack Miller">
-                <p>Jack Miller</p>
-                <p>Ducati</p>
+                <img src="./Assets/images/riders/Maverick.png" alt="Maverick Viñales">
+                <p>Maverick Viñales</p>
+                <p>Aprilia</p>
             </div>
         </div>
         <img id="result" src="/Assets/images/peco-celebrate.jpg" alt="">    
@@ -1136,8 +1134,23 @@
         </div>
     </section>
 
-<section>
-    <p>sign up</p>
+<section id="sign-up">
+    <div id="form-image"></div>
+    <form method="POST" action="" id="signup-form">
+        <h2>Sign Up For the Weekly Newsletter!</h2>
+
+        <label for="fname">First Name</label>
+        <input id="fname" name="first_name" type="text" required>
+
+        <label for="lname">Last Name</label>
+        <input id="lname" name="last_name" type="text" required>
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email_address" type="email" required>
+
+        <input type="submit" value="Submit">
+
+    </form>
 </section>
 
     <footer></footer>
