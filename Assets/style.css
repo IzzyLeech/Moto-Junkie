@@ -18,6 +18,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content:space-between;
+    background-color: white;
 }
 
 .logo {
@@ -66,7 +67,7 @@ header li a:hover {
 #main-content {
     display: flex;
     flex-wrap: wrap;
-    background-color: blue;
+    background-color: white;
 }
 
 #main-content h2 {
@@ -149,7 +150,7 @@ header li a:hover {
 }
 
 #column {
-    background-color: goldenrod;
+    background-color: white;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -160,7 +161,6 @@ header li a:hover {
     height: 300px;
     display: flex;
     margin-bottom: 25px;
-    padding-top: 10px;
     border: 1px solid black;
     margin-left: 8px;
 }
@@ -171,17 +171,16 @@ header li a:hover {
     
 .rider {
     text-align: justify;
-    width: 140px;
+    width: 160px;
     padding: 25px;
 }
 
 .rider img {
     display: block;
-    margin: 0 auto;
 }
 
 #table {
-    background-color: dodgerblue;
+    background-color: white;
     height: 1200px;
     position: relative;
 }
