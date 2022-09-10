@@ -295,20 +295,17 @@ tr td:nth-child(5), th:nth-child(5) {
     color: white;
 }
 
-footer {
-    height: 150px;
+#socials {
+    text-align: center;
 }
 
-#socials {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
+#socials li {
+    display: inline;
 }
 
 #socials i {
     font-size: 2rem;
-        margin: 2px;
+        margin: 1px;
         padding: 4rem;
         color: black;
 }
