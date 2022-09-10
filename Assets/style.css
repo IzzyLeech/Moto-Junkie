@@ -142,7 +142,7 @@ header li a:hover {
     display: flex;
         flex-direction: column;
         align-self: flex-start;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left: 25px;
         width: 54rem;
         height: 54rem;
@@ -157,23 +157,22 @@ header li a:hover {
 
 .rider-sec {
     width: 49%;
-    height: 310px;
+    height: 300px;
     display: flex;
-    margin-top: 30px;
-    padding-top: 20px;
+    margin-bottom: 25px;
+    padding-top: 10px;
     border: 1px solid black;
     margin-left: 8px;
 }
 
 .team-head {
-    
+    align-self: center;
 }
-
+    
 .rider {
     text-align: justify;
     width: 140px;
     padding: 25px;
-    margin-top: 50px;
 }
 
 .rider img {
