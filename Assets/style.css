@@ -261,9 +261,9 @@ tr td:nth-child(5), th:nth-child(5) {
 }
 
 #signup-form {
-    margin:300px 450px;
+    margin:350px 350px;
     padding: 50px;
-    width: 200px;
+    width: 300px;
 
     color: white;
     background-color: grey;
@@ -271,4 +271,18 @@ tr td:nth-child(5), th:nth-child(5) {
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+#signup-form h2 {
+    color: black;
+    margin-top: 0;
+}
+
+.text-input {
+    background-color: grey;
+    color: white;
+    width: 100%;
+
+    border: 1px solid white;
+    margin: 2px 0 15px
 }
