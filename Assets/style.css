@@ -155,9 +155,9 @@ header li a:hover {
     flex-wrap: wrap;
 }
 
-.rider {
+.rider-sec {
     width: 49%;
-    height: 250px;
+    height: 310px;
     display: flex;
     margin-top: 30px;
     padding-top: 20px;
@@ -165,10 +165,20 @@ header li a:hover {
     margin-left: 8px;
 }
 
-.rider h2 span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.team-head {
+    
+}
+
+.rider {
+    text-align: justify;
+    width: 140px;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.rider img {
+    display: block;
+    margin: 0 auto;
 }
 
 #table {
