@@ -1,4 +1,10 @@
 
+:root {
+    --gold: #D4AF37;
+    --silver: #C0C0C0;
+    --bronze: #cd7f32;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -17,9 +23,9 @@ a{
     font-size: 3rem;
 }
 
-li{
-    list-style: none;
-}
+/*Main Styles*/
+
+/*Header Section*/
 
 header{
     height: 1200px;
@@ -54,13 +60,16 @@ nav {
 }
 
 .nav-item {
-    margin-left: 5rem;
+    margin-left: 3rem;
+    list-style: none;
+    padding: 1rem;
 }
 
 .nav-link {
     font-size: 2rem;
     font-weight: 1000;
     color: black;
+
 }
 
 .nav-link:hover {
@@ -161,7 +170,7 @@ nav {
     font-size: 5rem;
     border: 1px solid black;
     width: 8rem;
-    background-color: gold;
+    background-color: var(--gold);
     text-align: center;
 }
 
@@ -172,7 +181,7 @@ nav {
     font-size: 5rem;
     border: 1px solid black;
     width: 8rem;
-    background-color: silver;
+    background-color: var(--silver);
     text-align: center;
 }
 
@@ -183,7 +192,7 @@ nav {
     font-size: 5rem;
     border: 1px solid black;
     width: 8rem;
-    background-color: #cd7f32;
+    background-color: var(--bronze);
     text-align: center;
 
 }
@@ -303,15 +312,15 @@ tr:hover {
 }
 
 .gold{
-    background-color: gold;
+    background-color: var(--gold);
 }
 
 .silver{
-    background-color: silver;
+    background-color: var(--silver);
 }
 
 .bronze {
-    background-color: #cd7f32;
+    background-color: var(--bronze);
 }
 
 .ret {
