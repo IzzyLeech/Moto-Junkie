@@ -384,6 +384,10 @@ tr td:nth-child(5), th:nth-child(5) {
     position: relative;
 }
 
+#sign-up #signup-form h2{
+    color: var(--electric-lime);
+}
+
 #form-image {
     height: 50rem;
     width: 100%;
@@ -395,8 +399,8 @@ tr td:nth-child(5), th:nth-child(5) {
     padding: 50px;
     width: 300px;
 
-    color: white;
-    background-color: grey;
+    color: var(--electric-lime);
+    background-color: var(--jet-black);
 
     position: absolute;
     top: 0px;
@@ -421,14 +425,14 @@ tr td:nth-child(5), th:nth-child(5) {
     text-align: center;
     margin-top: 2px;
     padding: 8px 15px;
-    background-color: blue;
-    color: white;
+    background-color: var(--electric-lime);
+    color: var(--jet-black);
 }
 
 #socials {
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
     background-color: var(--electric-lime);
 }
