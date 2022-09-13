@@ -278,14 +278,16 @@ nav {
 
 .team-head {
     align-self: center;
-    margin-left: 2rem;
+    width: 20rem;
+    margin-left: 3rem;
 }
     
 .rider {
     text-align: justify;
     width: 160px;
     padding: 25px;
-    margin-left: 4rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
     white-space: nowrap;
 }
 
