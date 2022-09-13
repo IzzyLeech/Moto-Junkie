@@ -260,18 +260,27 @@ nav {
         height: 54rem;
 }
 
+#header-rider{
+    color: var(--electric-lime);
+    text-align: center;
+    font-size: 5rem;
+    text-transform: capitalize;
+    
+}
+
 #column {
     background-color: var(--electric-lime);
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+    
 }
 
 .rider-sec {
     width: 49%;
     height: 300px;
     display: flex;
-    margin-bottom: 25px;
+    margin-top: 2rem;
     border: 1px solid black;
     margin-left: 8px;
 }
