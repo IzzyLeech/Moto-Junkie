@@ -145,6 +145,43 @@ nav {
 
 .leader img {
     float: left;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.position-1st {
+    float: left;
+    position: relative;
+    top: 50%;
+    font-size: 5rem;
+    border: 1px solid black;
+    width: 8rem;
+    background-color: gold;
+    text-align: center;
+}
+
+.position-2nd {
+    float: left;
+    position: relative;
+    top: 50%;
+    font-size: 5rem;
+    border: 1px solid black;
+    width: 8rem;
+    background-color: silver;
+    text-align: center;
+}
+
+.position-3rd {
+    float: left;
+    position: relative;
+    top: 50%;
+    font-size: 5rem;
+    border: 1px solid black;
+    width: 8rem;
+    background-color: #cd7f32;
+    text-align: center;
+
 }
 
 #trophy {
