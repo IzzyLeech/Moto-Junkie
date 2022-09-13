@@ -15,7 +15,6 @@ a{
     text-decoration: none;
     color: black;
     font-size: 3rem;
-
 }
 
 li{
@@ -73,8 +72,6 @@ nav {
     font-weight: 500;
     color: #2608ec;
 }
-
-
 
 #main-img {
     height: 1280px;
@@ -378,11 +375,13 @@ tr td:nth-child(5), th:nth-child(5) {
 }
 
 #socials {
-    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 #socials li {
-    display: inline;
+    list-style: none;
 }
 
 #socials i {
