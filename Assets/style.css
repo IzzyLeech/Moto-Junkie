@@ -429,6 +429,11 @@ tr td:nth-child(5), th:nth-child(5) {
     color: var(--jet-black);
 }
 
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: var(--electric-lime);
+}
+
 #socials {
     display: flex;
     align-content: center;
