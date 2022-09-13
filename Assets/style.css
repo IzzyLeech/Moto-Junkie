@@ -433,7 +433,7 @@ tr td:nth-child(5), th:nth-child(5) {
 
 #table {
     background-color: grey;
-    height: 2000px;
+    height: 1700px;
 
     display: flex;
     flex-direction: column;
