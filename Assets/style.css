@@ -3,6 +3,8 @@
     --gold: #D4AF37;
     --silver: #C0C0C0;
     --bronze: #cd7f32;
+    --electric-lime: #ccff00;
+    --jet-black: #0A0A0A;
 }
 
 * {
@@ -12,7 +14,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: var(--jet-black);
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -104,7 +106,7 @@ nav {
 #main-content {
     display: flex;
     flex-wrap: wrap;
-    background-color: grey;
+    background-color: var(--electric-lime);
 }
 
 #main-content h2 {
@@ -115,10 +117,11 @@ nav {
 }
 
 #up-races {
-    background-color: white;
+    background-color: var(--jet-black);
+    color: var(--electric-lime);
     width: 50rem;
     height: 41rem;
-    border: 4px solid black;
+    border: 4px solid var();
     overflow: scroll;
     display: flex;
     flex-direction: column;
@@ -144,15 +147,16 @@ nav {
 }
 
 #leader-sec{
-    background-color: white;
-        width: 54rem;
-        height: 53rem;
-        border: 4px solid black;
-        display: flex;
-        flex-direction: column;
-        align-self: flex-start;
-        margin-top: 30px;
-        margin-left: 6rem;
+    background-color: var(--jet-black);
+    color: var(--electric-lime);
+    width: 54rem;
+    height: 53rem;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 30px;
+    margin-left: 6rem;
         
 }
 
@@ -208,7 +212,8 @@ nav {
 }
 
 #last-result {
-    background-color: white;
+    background-color: var(--jet-black);
+    color: var(--electric-lime);
     width: 50rem;
     height: 54rem;
     border: 4px solid black;
@@ -234,7 +239,7 @@ nav {
 }
 
 #column {
-    background-color: grey;
+    background-color: var(--electric-lime);
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -264,7 +269,8 @@ nav {
 }
 
 #table {
-    background-color: grey;
+    background-color: var(--electric-lime);
+    color: var(--jet-black);
     height: 1000px;
     
     display: flex;
@@ -387,6 +393,8 @@ tr td:nth-child(5), th:nth-child(5) {
     display: flex;
     align-content: center;
     justify-content: center;
+
+    background-color: var(--electric-lime);
 }
 
 #socials li {
@@ -397,7 +405,7 @@ tr td:nth-child(5), th:nth-child(5) {
     font-size: 2rem;
     margin: 1px;
     padding: 4rem;
-    color: black;
+    color: var(--jet-black);
 }
 
 @media only screen and (max-width: 768px) {
