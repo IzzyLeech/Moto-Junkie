@@ -104,6 +104,8 @@ nav {
 #main-content h2 {
     text-align: center;
     border-bottom: 2px solid black;
+    font-size: 3rem;
+    margin: 15px 0;
 }
 
 #up-races {
@@ -116,9 +118,14 @@ nav {
     flex-direction: column;
     align-self: flex-start;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 25px;
     margin-left: 25px;
+}
+
+#up-races p {
+    margin-top: 1rem;
+    margin-bottom: 4px;
 }
 
 #track {
