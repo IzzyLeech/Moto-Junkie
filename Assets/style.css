@@ -5,6 +5,7 @@
     --bronze: #cd7f32;
     --electric-lime: #ccff00;
     --jet-black: #0A0A0A;
+    --darkred: #8B0000;
 }
 
 * {
@@ -366,7 +367,7 @@ tr:hover {
 }
 
 .ret {
-    background-color: red;
+    background-color: var(--darkred);
 }
 
 td:nth-child(2) {
