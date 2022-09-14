@@ -18,6 +18,7 @@ body {
     background-color: var(--jet-black);
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 /*Main Styles*/
@@ -29,6 +30,11 @@ header{
 }
 
 nav {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
+    background-color: var(--jet-black);
     display: flex;
     justify-content: space-between;
     align-items: center;
