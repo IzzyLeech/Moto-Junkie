@@ -141,6 +141,14 @@ nav {
     margin: 15px 0;
 }
 
+.section-head{
+    text-align: center;
+    color: var(--electric-lime);
+     font-size: 5rem;
+    text-transform: capitalize;
+    background-color: var(--jet-black);
+}
+
 #main-content hr {
     border-top: 2px dotted var(--electric-lime);
 }
@@ -291,6 +299,7 @@ nav {
     text-align: center;
     font-size: 5rem;
     text-transform: capitalize;
+    background-color: var(--jet-black);
     
 }
 
