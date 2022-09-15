@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:wght@500&family=Oswald&display=swap');
 
 :root {
     --gold: #D4AF37;
@@ -22,7 +23,7 @@ html {
 body {
     background-color: var(--electric-lime);
     color: var(--jet-black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lara',sans-serif;
     font-size: 1.6rem;
 }
 
