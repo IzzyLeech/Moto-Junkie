@@ -498,6 +498,21 @@ tr td:nth-child(5), th:nth-child(5) {
     color: var(--electric-lime);
 }
 
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: var(--electric-lime);
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: var(--electric-lime);
+}
+
+:-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: var(--electric-lime);
+}
+
 #socials {
     display: flex;
     align-content: center;
