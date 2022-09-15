@@ -102,8 +102,6 @@ nav {
     position: absolute;
     left: 4rem;
     bottom: 40rem ;
-
-
 }
 
 #text-box {
@@ -113,7 +111,6 @@ nav {
     height: 13rem;
     text-align: center;
     
-
     position: absolute;
     bottom: 25rem;
     left: 4rem;
@@ -128,6 +125,46 @@ nav {
     text-transform: uppercase;
 }
 
+#info{
+    width: 100%;
+    height: 6rem;
+}
+
+#ride-team{ 
+    width: 100%;
+    height: 6rem;
+}
+
+#champ-table{
+    width: 100%;
+    height: 6rem;
+}
+
+#newsletter{
+    width: 100%;
+    height: 6rem;
+}
+
+.section-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--electric-lime);
+    font-size: 5rem;
+    text-transform: capitalize;
+    background-color: var(--jet-black);
+
+    margin-top: 1rem;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -5px;
+    visibility: hidden;
+    margin-top: -96px;
+}
+
 #main-content {
     display: flex;
     flex-wrap: wrap;
@@ -139,14 +176,6 @@ nav {
     border-bottom: 2px solid var(--electric-lime);
     font-size: 3rem;
     margin: 15px 0;
-}
-
-.section-head{
-    text-align: center;
-    color: var(--electric-lime);
-     font-size: 5rem;
-    text-transform: capitalize;
-    background-color: var(--jet-black);
 }
 
 #main-content hr {
@@ -165,8 +194,8 @@ nav {
     align-self: flex-start;
     text-align: center;
     font-size: 2rem;
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-top: 1rem;
+    margin-left: 3rem;
 }
 
 #up-races p {
@@ -424,7 +453,7 @@ tr td:nth-child(5), th:nth-child(5) {
 }
 
 #form-image {
-    height: 50rem;
+    height: 48rem;
     width: 100%;
     background: url(../Assets/images/form-image.jpg) no-repeat center top;
 }
@@ -475,6 +504,7 @@ tr td:nth-child(5), th:nth-child(5) {
     justify-content: space-evenly;
 
     background-color: var(--electric-lime);
+    margin-top: -2rem;
 }
 
 #socials li {
@@ -483,8 +513,8 @@ tr td:nth-child(5), th:nth-child(5) {
 
 #socials i {
     font-size: 2rem;
-    margin: 1px;
-    padding: 4rem;
+    margin: 1rem;
+    padding: 2rem;
     color: var(--jet-black);
 }
 
