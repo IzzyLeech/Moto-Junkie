@@ -5,7 +5,8 @@
     --bronze: #cd7f32;
     --electric-lime: #ccff00;
     --jet-black: #0A0A0A;
-    --darkred: #8B0000;
+    --violet:   #EE82EE;
+
 }
 
 html {
@@ -256,7 +257,7 @@ nav {
     font-size: 5rem;
     border: 1px solid black;
     width: 8rem;
-    background-color: var(--gold);
+    background-color: var(--jet-black);
     text-align: center;
 }
 
@@ -267,7 +268,7 @@ nav {
     font-size: 5rem;
     border: 1px solid black;
     width: 8rem;
-    background-color: var(--silver);
+    background-color: var(--jet-black);
     text-align: center;
 }
 
@@ -278,7 +279,7 @@ nav {
     font-size: 5rem;
     border: 1px solid black;
     width: 8rem;
-    background-color: var(--bronze);
+    background-color: var(--jet-black);
     text-align: center;
 
 }
@@ -426,7 +427,7 @@ tr:hover {
 }
 
 .ret {
-    background-color: var(--darkred);
+    background-color: var(--violet);
 }
 
 td:nth-child(2) {
@@ -491,22 +492,22 @@ tr td:nth-child(5), th:nth-child(5) {
 
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: var(--electric-lime);
+    color: var(--jet-black);
 }
 
 :-ms-input-placeholder {
     /* IE 10+ */
-    color: var(--electric-lime);
+    color: var(--jet-black);
 }
 
 ::-moz-placeholder {
     /* Firefox 19+ */
-    color: var(--electric-lime);
+    color: var(--jet-black);
 }
 
 :-moz-placeholder {
     /* Firefox 4 - 18 */
-    color: var(--electric-lime);
+    color: var(--jet-black);
 }
 
 #socials {
@@ -524,7 +525,7 @@ tr td:nth-child(5), th:nth-child(5) {
 
 #socials i {
     font-size: 3rem;
-    margin: .5rem;
+    margin: 1rem;
     padding: 1rem;
     color: var(--jet-black);
 }
