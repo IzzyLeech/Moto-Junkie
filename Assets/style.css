@@ -257,8 +257,9 @@ nav {
     font-size: 5rem;
     border: 1px solid black;
     width: 8rem;
-    background-color: var(--jet-black);
+    background-color: var(--gold);
     text-align: center;
+    color: var(--jet-black);
 }
 
 .position-2nd {
@@ -266,10 +267,11 @@ nav {
     position: relative;
     top: 43%;
     font-size: 5rem;
-    border: 1px solid black;
+    border: 1px solid var(--jet-black);
     width: 8rem;
-    background-color: var(--jet-black);
+    background-color: var(--silver);
     text-align: center;
+    color: var(--jet-black);
 }
 
 .position-3rd {
@@ -277,11 +279,11 @@ nav {
     position: relative;
     top: 43%;
     font-size: 5rem;
-    border: 1px solid black;
+    border: 1px solid var(--jet-black);
     width: 8rem;
-    background-color: var(--jet-black);
+    background-color: var(--bronze);
     text-align: center;
-
+    color: var(--jet-black);
 }
 
 #trophy {
@@ -325,8 +327,8 @@ nav {
         align-self: flex-start;
         margin-top: 2.5rem;
         margin-left: 6rem;
-        width: 100rem;
-        height: 90rem;
+        width: 80rem;
+        height: 85rem;
 }
 
 #column {
@@ -474,11 +476,11 @@ tr td:nth-child(5), th:nth-child(5) {
 }
 
 .text-input {
-    background-color: grey;
+    background-color: var(--jet-black);
     color: white;
     width: 100%;
 
-    border: 1px solid white;
+    border: 2px solid white;
     margin: 2px 0 15px
 }
 
@@ -492,7 +494,7 @@ tr td:nth-child(5), th:nth-child(5) {
 
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: var(--jet-black);
+    color: var(--electric-lime);
 }
 
 :-ms-input-placeholder {
