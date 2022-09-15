@@ -15,8 +15,8 @@
 }
 
 body {
-    background-color: var(--jet-black);
-    color: black;
+    background-color: var(--electric-lime);
+    color: var(--jet-black);
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -26,14 +26,14 @@ body {
 /*Header Section*/
 
 header{
-    height: 1200px;
+    height: 6rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 nav {
-    position: sticky;
-    top: 0;
-    z-index: 5;
-
     background-color: var(--jet-black);
     display: flex;
     justify-content: space-between;
