@@ -59,7 +59,7 @@ nav {
 .nav-menu{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: cente;
 
     background-color: var(--electric-lime);
 }
@@ -485,12 +485,12 @@ tr td:nth-child(5), th:nth-child(5) {
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #fff;
+        background-color:var(--electric-lime);
         width: 100%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
-        box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+        box-shadow:0 10px 27px var(--jet-black);
         }
     
 .nav-menu.active {
