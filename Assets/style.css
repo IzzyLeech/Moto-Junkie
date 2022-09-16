@@ -777,3 +777,44 @@ iframe {
     }
 
 }
+
+@media only screen and (max-width: 568px) {
+
+    header {
+        width: 166%;
+    }
+
+    #main-img {
+        width: 166%;
+    }
+
+    #text-box {
+        top: 58rem;
+    }
+
+    .section-head {
+        width: 166%;
+    }
+
+    #main-content {
+        margin-left: 18rem;
+    }
+
+    .rider-sec {
+        width: 140%;
+    }
+
+    #sign-up {
+        width: 125%;
+    }
+
+    #signup-form {
+        height: 39.1rem;
+        top: 0px;
+    }
+
+    footer {
+        width: 166%
+    }
+    };
+}
