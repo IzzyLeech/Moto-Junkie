@@ -567,6 +567,8 @@ tr td:nth-child(5), th:nth-child(5) {
     #welcome {
         top: 10rem;
         left: 2rem;
+
+        width: 25rem;
 }
 
     #text-box{
