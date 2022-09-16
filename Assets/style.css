@@ -580,25 +580,35 @@ tr td:nth-child(5), th:nth-child(5) {
         justify-content: center;
 }
 
+    #up-races {
+        margin-left: 0;
+    }
+
     #track {
-        margin-left: 3rem;
+        margin-left: 0;
 }   
 
     #leader-sec{
-        margin-left: 3rem;
+        margin-left: 0;
 }
 
     #last-result{
-        margin-left: 3rem;
+        margin-left: 0;
 }
 
     #trophy {
-        margin-left: 3rem;
+        margin-left: 0;
+}
+
+iframe {
+        margin-left: 0;
 }
 
     #result-img {
         margin-left: 3rem;
 }
+
+
 
     #table{
         height: 160rem;
