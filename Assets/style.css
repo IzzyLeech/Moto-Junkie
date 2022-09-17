@@ -75,13 +75,13 @@ nav {
 }
 
 .nav-item {
-    margin-left: 5rem;
+    margin-left: 2rem;
     list-style: none;
     padding: 1rem;
 }
 
 .nav-link {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 1000;
     color: black;
 
@@ -98,10 +98,10 @@ nav {
 }
 
 #main-img {
-    height: 1120px;
+    height: 115.5vh;
     width: 100%;
     background: url(../Assets/images/index.v1.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: 100% 115.5vh;
 }
 
 #welcome {
@@ -177,9 +177,22 @@ nav {
 }
 
 #main-content {
-    display: flex;
-    flex-wrap: wrap;
     background-color: var(--electric-lime);
+    margin: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
 
 #main-content h2 {
@@ -194,19 +207,18 @@ nav {
 }
 
 #up-races {
+    height: 72.2vh;
+    width: 100%;
+    min-width: 500px;
+    margin-bottom: 20px;
+
+
     background-color: var(--jet-black);
     color: var(--electric-lime);
-    width: 80rem;
-    height: 60rem;
     border: 4px solid var();
     overflow: scroll;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
     text-align: center;
     font-size: 3rem;
-    margin-top: 2rem;
-    margin-left: 10rem;
 }
 
 #up-races p {
@@ -215,31 +227,25 @@ nav {
 }
 
 #track {
-        display: flex;
-        flex-direction: column;
-        align-self: flex-start;
-        margin-top: 2rem;
-        margin-left: 10rem;
-        width: 80rem;
+    height: 72.2vh;
+    width: 50%;
+    margin-left: 1.5rem;
 }
 
 #leader-sec{
     background-color: var(--jet-black);
     color: var(--electric-lime);
-    width: 80rem;
-    height: 85rem;
+    width: 100%;
+    min-width: 515px;
     border: 4px solid black;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    margin-top: 3rem;
-    margin-left: 10rem;
-        
+    height: 98rem;
+    margin-bottom: 20px;
+    margin-left: 1.5rem;
 }
 
 .leader {
     width: 100%;
-    height: 50rem;
+    height: 29rem;
 }
 
 .leader img {
@@ -273,7 +279,7 @@ nav {
     top: 43%;
     font-size: 5rem;
     border: 1px solid var(--jet-black);
-    width: 8rem;
+    width: 8.5rem;
     background-color: var(--silver);
     text-align: center;
     color: var(--jet-black);
@@ -292,31 +298,23 @@ nav {
 }
 
 #trophy {
-        display: flex;
-        flex-direction: column;
-        align-self: flex-start;
-        margin-top: 3rem;
-        margin-left: 10rem;
-        width: 80rem;
-        height: 85rem;
+        height: 98rem;
+        margin-right: 1rem;
+        width: 98%;
 }
 
 #last-result {
     background-color: var(--jet-black);
     color: var(--electric-lime);
-    width: 80rem;
-    height: 90rem;
     border: 4px solid black;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    margin-top: 2.5rem;
-    margin-left: 10rem;
+    width:100%;
+    min-width: 484px;
+    margin-right: 1rem;
 }
 
 .result {
     width: 100%;
-    height: 50rem;
+    height: 26rem;
 }
 
 .result img {
@@ -327,36 +325,27 @@ nav {
 }
 
 iframe{
-    display: flex;
-        flex-direction: column;
-        align-self: flex-start;
-        margin-top: 2.5rem;
-        margin-left: 10rem;
-        width: 80rem;
-        height: 90rem;
+    width: 100%;
+    height: 87.5rem;
 }
 
-#column {
+#riderandteam {
     background-color: var(--electric-lime);
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    
+    margin: 15px;
 }
 
 .rider-sec {
-    width: 49%;
+    width: 100%;
     height: 30rem;
     display: flex;
     margin-top: 2rem;
     border: 1px solid black;
-    margin-left: 1rem;
 }
 
 .team-head {
     align-self: center;
-    width: 20rem;
-    margin-left: 3rem;
+
+    white-space: nowrap;
 }
     
 .rider {
@@ -460,7 +449,7 @@ tr td:nth-child(5), th:nth-child(5) {
     height: 75rem;
     width: 100%;
     background: url(../Assets/images/form-image.jpg) no-repeat center top;
-    background-size: cover;
+    background-size: 100% 77.3vh;
 }
 
 #signup-form {
@@ -537,284 +526,67 @@ tr td:nth-child(5), th:nth-child(5) {
     color: var(--jet-black);
 }
 
-@media only screen and (max-width: 992px) {
-
-    .logo {
-            font-size: 3rem;
-}
-
-    .nav-menu{
-        width: 74%;
-}
-
-    .nav-link {
-        font-size: 2rem;
-        white-space: nowrap;
-        position: relative;
-        right: 12px;
-}
-
-    .nav-item{
-        margin-left: 1rem;
-        margin-right: 1.5rem;
-
-}
-
-    #main-img{
-        height: 660px;
-}
-
-    #welcome {
-        top: 10rem;
-        left: 2rem;
-
-        width: 25rem;
-}
-
-    #text-box{
-        left: 2rem;
-        top: 50rem ;
-}
-
-    #main-content{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-}
-
-    #up-races {
-        margin-left: 0;
-    }
-
-    #track {
-        margin-left: 0;
-}   
-
-    #leader-sec{
-        margin-left: 0;
-}
-
-    #last-result{
-        margin-left: 0;
-}
-
-    #trophy {
-        margin-left: 0;
-}
-
-iframe {
-        margin-left: 0;
-}
-
-    #result-img {
-        margin-left: 3rem;
-}
-
-
-
-    #table{
-        height: 160rem;
-}
-
-    #table-1 {
-        margin: 0 1.5rem;
-    
-}
-
-    #table-2 {
-        position: relative;
-        top: -3rem;
-}
-
-    #table-3 {
-        margin: 0 1.5rem;
-}
-
-    #column {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-}
-
-.team-head {
-    margin-left: 2rem;
-}
-
-    .rider-sec{
-        width: 80%;
-}
-
-    .rider{
-        margin-left: 4rem;
-    }
-
-    #form-image {
-        height: 39rem;
-        
-}
-
-    #signup-form {
-        left: 65rem;
-        top: 4px;
-}
-
-    #sign-up {
-        height: 39rem;
-} 
-
-}
-
-@media only screen and (max-width: 768px) {
-
-    header {
-        width: 125%;
-    }
-
-    #main-img {
-        width: 125%;
-    }
+@media only screen and (max-width:1200px) {
 
     .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 9rem;
-        flex-direction: column;
-        background-color:var(--electric-lime);
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:0 10px 27px var(--jet-black);
+            position: fixed;
+            left: -100%;
+            top: 9rem;
+            flex-direction: column;
+            background-color: var(--electric-lime);
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow: 0 10px 27px var(--jet-black);
         }
     
-    .nav-menu.active {
-        left: 0;
+        .nav-menu.active {
+            left: 0;
         }
     
-    .nav-item {
-        margin: 2.5rem 0;
+        .nav-item {
+            margin: 2.5rem 0;
         }
     
-    .hamburger {
-        display: block;
-        cursor: pointer;
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+    
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+        
+        .row{
+            display: flex;
+            flex-direction: column;
         }
 
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-}
+        #track {
+            width: 100%;
+            margin-bottom: 2rem;
+            margin-left: 0;
+        }
 
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-}
+        #trophy{
+            width: 100%;
+            margin-bottom: 2rem;
+        }
 
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-}
+        #leader-sec {
+            margin-left: 0;
+        }
 
-    .section-head {
-        width: 125%;
-    }
-
-    #up-races {
-        min-width: 80rem;
-        margin-left:20rem;
-    }
-
-    #track {
-        margin-left: 20rem;
-    }
-
-    #trophy {
-        margin-left: 20rem;
-    }
-
-    #leader-sec {
-        min-width: 80rem;
-        margin-left: 20rem;
-    }
-
-    #last-result {
-        min-width: 80rem;
-        margin-left: 20rem;
-    }
-
-    iframe {
-        min-width: 80rem;
-        margin-left: 20rem;
-    }
-    
-    #table {
-        height: 170rem;
-    }
-
-    #table-1 {
-        margin:0 4rem ;
-    }
-
-    #table-2 {
-        margin: 2rem 4rem 0;
-    }
-
-    #table-3 {
-        margin: 0 4rem 10rem;
-    }
-
-    .rider-sec {
-        width: 105%;
-        margin: 2rem 8rem ;
-    }
-
-    #signup-form {
-        height: 39.1rem;
-        top: 0;
-        left: 65.8rem;
-    }
-
-    footer {
-        width: 120%;
-    }
-
-}
-
-@media only screen and (max-width: 568px) {
-
-    header {
-        width: 166%;
-    }
-
-    #main-img {
-        width: 166%;
-    }
-
-    #text-box {
-        top: 58rem;
-    }
-
-    .section-head {
-        width: 166%;
-    }
-
-    #main-content {
-        margin-left: 18rem;
-    }
-
-    .rider-sec {
-        width: 140%;
-    }
-
-    #sign-up {
-        width: 125%;
-    }
-
-    #signup-form {
-        height: 39.1rem;
-        top: 0px;
-    }
-
-    footer {
-        width: 166%
-    }
-    };
-}
+        #last-result{
+            margin-bottom: 2rem;
+        }
+        }
