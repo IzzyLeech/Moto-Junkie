@@ -1,7 +1,58 @@
 # Hitting The Apex
 Portfolio Project 1 
 The Purpose of Hitting The Apex is to created a website that caters to the needs of fans of Moto GP.
-The website will demonstrate easy digestable inforamtion to quickly cath up on the going ons of the current season, that current fans will be able to quickly catch up on and also will be easily understanble for newer fans of Moto Gp. The Website will give inforamtion on the current 2022 championship.
+The website will demonstrate easy digestable inforamtion to quickly cath up on the going ons of the current season, that current fans will be able to quickly catch up on and also will be easily understanble for newer fans of Moto Gp. The Website will give inforamtion on the current 2022 championship. 
+
+Ux
+
+User Goals
+Accessible up to date inforamtion on the championship
+Aesthetic pleasing images
+Easily Navigatable table for championship
+Simple user interface
+Form to sign up for the newsletter
+
+User Stories
+
+As a user, I want the website to be easily navigable.
+As a user, I want the website to give me inforamtion on the current Moto GP Championship.
+As a user, I want to know the upcoming races.
+As a user, I want to know who is leading the championship.
+As a user, I want to know who is competing in the championship and the team they are a part of.
+As a user, I want to know who has place on the podium on the last races.
+As a user, I want to easily navigate through the website.
+As a user, I want to know if the website has soical media and where to access it
+As a user, I want to  know the points scored on all races for each rider. 
+
+Site Owner Goals
+Promote the sport of moto racing.
+Increase the fanbase of Moto gp
+Increase rankings on seach engines.
+To have the website updated on the lastest race.
+To keep building on the Website in other area of motosports in the future.
+
+Requirements
+
+An easy flowing user interface that is usable on different screen sizes.
+Concise up to date information on all the section of the website.
+Aesthetic pleasing structure of the website so user don't feel lost.
+
+Expections
+
+I expect all information is up to date and correct.
+I expect all navigation links to link to the correct part of the website.
+I expect all social media links to work correctly and to a new tab but staying on Hitting The Apex.
+I expect Newsletter submission are post to the correct database.
+I expect the website to be visually appeasing on all screeen sizes.
+I expect all inforamtion on the website to be relavent to Moto GP.
+I expect the website to be free flowing in nature of  accessibility.
+
+Design Choices
+
+Fonts
+
+
+
 Visaul aid will be demonstrated in  the wireframe Balsamiq
 Details will include upcoming races, current standing in the championship, latest results, riders and team info and sign up for a news letter.
 The website will potentialy have 3 pages. 

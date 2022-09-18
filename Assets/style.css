@@ -336,7 +336,7 @@ iframe{
     background-color: var(--electric-lime);
     color: var(--jet-black);
     height: 90rem;
-
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
 }
@@ -412,12 +412,10 @@ tr td:nth-child(5), th:nth-child(5) {
 }
 
 .rider-sec {
-    width: 100%;
+    width: 99%;
     height: 36rem;
     display: flex;
-    
     margin-top: 2rem;
-    margin-left:2rem;
     border: 1px solid black;
 }
 
