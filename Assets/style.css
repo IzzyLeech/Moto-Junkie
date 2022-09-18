@@ -656,6 +656,8 @@ tr td:nth-child(5), th:nth-child(5) {
         
         white-space: nowrap;
         width: 100%;
+
+        margin-left: 0;
     }
 
     #table-3 {
@@ -663,7 +665,17 @@ tr td:nth-child(5), th:nth-child(5) {
         overflow-x: auto;
         white-space: nowrap;
         width: 100%;
+
+        margin-left: 0;
     }
 
     
+}
+
+@media only screen and (max-width:692px) {
+
+    .rider{
+        margin-right: 0;
+    }
+
 }
