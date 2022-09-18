@@ -439,7 +439,7 @@ tr td:nth-child(5), th:nth-child(5) {
 }
 
 #sign-up {
-    height: 75rem;
+    height: 82rem;
     width: 100%;
     position: relative;
 }
@@ -449,7 +449,7 @@ tr td:nth-child(5), th:nth-child(5) {
 }
 
 #form-image {
-    height: 75rem;
+    height: 82rem;
     width: 100%;
     background: url(../Assets/images/form-image.jpg) no-repeat center top;
     background-size: 100% 77.3vh;
@@ -509,13 +509,17 @@ tr td:nth-child(5), th:nth-child(5) {
     color: var(--jet-black);
 }
 
+footer {
+    width: 100%;
+    
+}
+
 #socials {
     display: flex;
     align-content: center;
     justify-content: space-evenly;
 
     background-color: var(--electric-lime);
-    margin-top: 2rem;
 }
 
 #socials li {
@@ -524,7 +528,7 @@ tr td:nth-child(5), th:nth-child(5) {
 
 #socials i {
     font-size: 3rem;
-    margin: 1rem;
+    margin: 5rem;
     padding: 1rem;
     color: var(--jet-black);
 }
