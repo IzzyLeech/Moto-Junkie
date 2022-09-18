@@ -208,7 +208,7 @@ nav {
 
 #up-races {
     height: 72.2vh;
-    width: 100%;
+    width: 98%;
     min-width: 500px;
     margin-bottom: 20px;
 
@@ -228,19 +228,19 @@ nav {
 
 #track {
     height: 72.2vh;
-    width: 50%;
+    width: 49%;
     margin-left: 1.5rem;
 }
 
 #leader-sec{
     background-color: var(--jet-black);
     color: var(--electric-lime);
-    width: 100%;
+    width: 98%;
     min-width: 515px;
     border: 4px solid black;
     height: 98rem;
     margin-bottom: 20px;
-    margin-left: 1.5rem;
+    margin-left: 1.5rem;    
 }
 
 .leader {
@@ -307,7 +307,7 @@ nav {
     background-color: var(--jet-black);
     color: var(--electric-lime);
     border: 4px solid black;
-    width:100%;
+    width:98%;
     min-width: 484px;
     margin-right: 1rem;
 }
@@ -325,53 +325,23 @@ nav {
 }
 
 iframe{
-    width: 100%;
+    width: 98%;
     height: 87.5rem;
+    margin-left: 1.5rem;
 }
 
-#riderandteam {
-    background-color: var(--electric-lime);
-    margin: 15px;
-}
-
-.rider-sec {
-    width: 100%;
-    height: 30rem;
-    display: flex;
-    margin-top: 2rem;
-    border: 1px solid black;
-}
-
-.team-head {
-    align-self: center;
-
-    white-space: nowrap;
-}
-    
-.rider {
-    text-align: justify;
-    width: 16rem;
-    padding: 2.5rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    white-space: nowrap;
-}
-
-.rider img {
-    display: block;
-}
+/*tables content*/
 
 #table {
     background-color: var(--electric-lime);
     color: var(--jet-black);
     height: 90rem;
-    
+
     display: flex;
-    align-items: flex-start;
     flex-wrap: wrap;
 }
 
-table, th, td  {
+table,th,td {
     border: 1px solid black;
     text-align: center;
     margin: 2rem auto;
@@ -379,10 +349,11 @@ table, th, td  {
 }
 
 #table-1 {
-    margin-left: 4rem;
+    margin: 0rem 4rem;
+    
 }
 
-#champ-head{
+#champ-head {
     text-align: center;
 
 }
@@ -392,9 +363,9 @@ table, th, td  {
     margin-left: 4rem;
 }
 
-#anno-head{
+#anno-head {
     text-align: center;
-    
+
 }
 
 #table-3 {
@@ -410,11 +381,11 @@ tr:hover {
     background-color: crimson;
 }
 
-.gold{
+.gold {
     background-color: var(--gold);
 }
 
-.silver{
+.silver {
     background-color: var(--silver);
 }
 
@@ -434,6 +405,40 @@ td:nth-child(2) {
 tr td:nth-child(5), th:nth-child(5) {
     display: none;
 }*/
+
+#riderandteam {
+    background-color: var(--electric-lime);
+    margin: 15px;
+}
+
+.rider-sec {
+    width: 100%;
+    height: 36rem;
+    display: flex;
+    
+    margin-top: 2rem;
+    margin-left:2rem;
+    border: 1px solid black;
+}
+
+.team-head {
+    align-self: center;
+    margin-left: 2rem;
+    width: 5rem;
+}
+    
+.rider {
+    width: 100%;
+    padding: 2.5rem;
+    margin-left: 5rem;
+    margin-right: 6rem;
+    word-break: break-word;
+    border: 1px solid black;
+}
+
+.rider img {
+    display: block;
+}
 
 #sign-up {
     height: 75rem;
@@ -526,7 +531,48 @@ tr td:nth-child(5), th:nth-child(5) {
     color: var(--jet-black);
 }
 
+@media  only screen and (max-width:1770px) {
+
+    #table-2 {
+        position: relative;
+        bottom: 100px;
+    }
+    
+}
+
+@media  only screen and (max-width:1548px) {
+
+    #table{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    #table-1{
+        overflow-x: auto;
+    }
+
+    #table-2 {
+        position: static;
+        bottom: 0;
+    }
+
+    #table-3 {
+        margin-top: 0;
+        margin-right: 4rem;
+    }
+
+    #riderandteam .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
 @media only screen and (max-width:1200px) {
+
+    /*Header*/
 
     .nav-menu {
             position: fixed;
@@ -565,10 +611,16 @@ tr td:nth-child(5), th:nth-child(5) {
         .hamburger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
         }
-        
-        .row{
+
+        /*Main Content*/
+
+        #main-content .row{
             display: flex;
             flex-direction: column;
+        }
+
+        #up-races{
+            width: 100%;
         }
 
         #track {
@@ -583,10 +635,37 @@ tr td:nth-child(5), th:nth-child(5) {
         }
 
         #leader-sec {
+            width: 100%;
             margin-left: 0;
         }
 
         #last-result{
+            width: 100%;
             margin-bottom: 2rem;
         }
+
+        iframe{ 
+            margin-left: .2rem;
+            width: 100%;
         }
+        }
+
+@media only screen and (max-width:970px) {
+    
+    #table-1 {
+        display: block;
+        overflow-x: auto;
+        
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    #table-3 {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    
+}
