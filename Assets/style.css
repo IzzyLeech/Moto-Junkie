@@ -103,19 +103,21 @@ nav {
     background: url(../Assets/images/index.v1.jpg) no-repeat center center;
     background-size: contain;
     background-size: 100% 115.5vh;
+    position: relative;
 }
 
 #welcome {
     background-color: var(--jet-black);
     color: var(--electric-lime);
     width: 30rem;
-    height: 18rem;
+    height: auto;
+    min-height: auto;
     font-size: 14px;
     line-height: 25px;
 
     position: absolute;
-    left: 30px;
-    bottom: 600px;
+    left: 20px;
+    top:30px;
 }
 
 #welcome h3 {
@@ -132,8 +134,8 @@ nav {
     
     
     position: absolute;
-    bottom: 450px;
-    left: 30px;
+    top: 230px;
+    left: 20px;
 }
 
 #text-box a{
@@ -455,7 +457,7 @@ td:nth-child(2) {
 /*Newsletter*/
 
 #sign-up {
-    height: 70rem;
+    height: 86rem;
     width: 100%;
     position: relative;
 }
@@ -465,10 +467,11 @@ td:nth-child(2) {
 }
 
 #form-image {
-    height: 70rem;
+    height: 86rem;
     width: 100%;
     background: url(../Assets/images/form-image.jpg) no-repeat center top;
     background-size: 100% 77.3vh;
+    position: relative;
 }
 
 #signup-form {
@@ -759,17 +762,17 @@ footer {
     }
 
     #welcome {
-        width: 80%;
+        width: 70%;
         height: auto;
-        bottom: 46rem;
+        top: .5rem;
         left: 1rem;
         font-size: 9px;
         line-height: 14px;    
     }
 
     #text-box {
-        bottom: -15rem;
         left: 1rem;
+        top: 630px;
     }
 
     #main-content h2 {
