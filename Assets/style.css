@@ -101,6 +101,7 @@ nav {
     height: 115.5vh;
     width: 100%;
     background: url(../Assets/images/index.v1.jpg) no-repeat center center;
+    background-size: contain;
     background-size: 100% 115.5vh;
 }
 
@@ -108,23 +109,31 @@ nav {
     background-color: var(--jet-black);
     color: var(--electric-lime);
     width: 30rem;
-    height: 15rem;
+    height: 18rem;
+    font-size: 14px;
+    line-height: 25px;
 
     position: absolute;
-    left: 3rem;
-    bottom: 70rem ;
+    left: 30px;
+    bottom: 600px;
+}
+
+#welcome h3 {
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 #text-box {
     background-color: var(--jet-black);
     color: var(--electric-lime);
     width: 15rem;
-    height: 13rem;
+    height: 9rem;
     text-align: center;
     
+    
     position: absolute;
-    bottom: 55rem;
-    left: 3rem;
+    bottom: 450px;
+    left: 30px;
 }
 
 #text-box a{
@@ -132,7 +141,7 @@ nav {
     top: 1rem;
     color: var(--electric-lime);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 16px;
     text-transform: uppercase;
 }
 
@@ -246,6 +255,9 @@ nav {
 .leader {
     width: 100%;
     height: 29rem;
+
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .leader img {
@@ -315,6 +327,8 @@ nav {
 .result {
     width: 100%;
     height: 26rem;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .result img {
@@ -401,10 +415,7 @@ td:nth-child(2) {
     text-align: left;
 }
 
-/*
-tr td:nth-child(5), th:nth-child(5) {
-    display: none;
-}*/
+/*Rider and Team*/
 
 #riderandteam {
     background-color: var(--electric-lime);
@@ -413,10 +424,12 @@ tr td:nth-child(5), th:nth-child(5) {
 
 .rider-sec {
     width: 99%;
-    height: 36rem;
     display: flex;
     margin-top: 2rem;
-    border: 1px solid black;
+    border: 1px solid blue;
+
+    background-color: var(--jet-black);
+    color: var(--electric-lime);
 }
 
 .team-head {
@@ -431,15 +444,18 @@ tr td:nth-child(5), th:nth-child(5) {
     margin-left: 5rem;
     margin-right: 6rem;
     word-break: break-word;
-    border: 1px solid black;
+    border: 1px solid blue;
+    font-size: 13px;
 }
 
 .rider img {
     display: block;
 }
 
+/*Newsletter*/
+
 #sign-up {
-    height: 82rem;
+    height: 70rem;
     width: 100%;
     position: relative;
 }
@@ -449,7 +465,7 @@ tr td:nth-child(5), th:nth-child(5) {
 }
 
 #form-image {
-    height: 82rem;
+    height: 70rem;
     width: 100%;
     background: url(../Assets/images/form-image.jpg) no-repeat center top;
     background-size: 100% 77.3vh;
@@ -464,7 +480,7 @@ tr td:nth-child(5), th:nth-child(5) {
 
     position: absolute;
     top: 25rem;
-    right: 50rem;
+    right: 3rem;
 }
 
 #signup-form h2 {
@@ -528,7 +544,7 @@ footer {
 
 #socials i {
     font-size: 3rem;
-    margin: 5rem;
+    margin: 2rem;
     padding: 1rem;
     color: var(--jet-black);
 }
@@ -682,4 +698,161 @@ footer {
         margin-right: 0;
     }
 
+}
+
+@media only screen and (max-width:570px) {
+
+    .logo {
+        font-size: 3rem;
+    }
+
+    #up-races {
+        min-width: 0;
+    }
+    
+
+    #leader-sec {
+        min-width: 0;
+    }
+
+    #last-result {
+        min-width: 0;
+    }
+
+    .result {
+        margin-bottom: 2rem;
+    }
+
+    .section-head {
+        font-size: 3.5rem;
+    }
+
+    .rider-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rider {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .rider img {
+        display: inline;
+    }
+
+    .team-head {
+        width: 40%;
+        margin-top: 2rem;
+        
+    }
+}
+
+@media only screen and (max-width:420px)  {
+
+    .logo{
+        font-size: 2.5rem;
+    }
+
+    #welcome h3 {
+        font-size: 12px;
+    }
+
+    #welcome {
+        width: 80%;
+        height: auto;
+        bottom: 46rem;
+        left: 1rem;
+        font-size: 9px;
+        line-height: 14px;    
+    }
+
+    #text-box {
+        bottom: -15rem;
+        left: 1rem;
+    }
+
+    #main-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .section-head {
+        font-size: 18px;
+    }
+
+    #up-races {
+        font-size: 2rem;
+    }
+
+    #track {
+        height: 60vh;
+    }
+
+    #trophy {
+        height: 60vh;
+    }
+
+    #table h2 {
+        font-size: 16px;
+    }
+
+    .leader img {
+        float: none;
+        position: relative;
+        right: 20px;
+    }
+
+    .leader-info {
+        font-size: 11px;
+        top: 0rem;
+        right: -84px;
+    }
+
+    .position-1st {
+        top:70%;
+    }
+
+    .position-2nd {
+        top: 70%;
+    }
+
+    .position-3rd {
+        top: 70%;
+    }
+
+    .result img {
+        float: none;
+        position: relative;
+        right: 20px;    
+    }
+
+    iframe{
+        height: 50rem;
+    }
+
+    .team-head {
+        font-size: 10px;
+        white-space: nowrap;
+        margin-left: 0;
+        margin-right: 6rem;
+    }
+
+    .rider{
+        font-size: 12px;
+    }
+
+    #signup-form {
+        padding: 20px;
+        width: 200px;
+        top: 100px;
+        right: 10px;
+    }
+
+    #sign-up {
+        height: 50rem;
+    }
+
+    #form-image{
+        height: 50rem;
+    }
 }
