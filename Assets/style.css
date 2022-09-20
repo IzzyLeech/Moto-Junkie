@@ -100,7 +100,7 @@ nav {
 #main-img {
     height: 115.5vh;
     width: 100%;
-    background: url(../Assets/images/index.v1.jpg) no-repeat center center;
+    background: url(../Assets/images/index.v2.webp) no-repeat center center;
     background-size: contain;
     background-size: 100% 115.5vh;
     position: relative;
@@ -238,8 +238,10 @@ nav {
 }
 
 #track {
-    height: 72.2vh;
-    width: 49%;
+    object-fit: cover;
+    height: auto;
+    width: auto;
+    
     margin-left: 1.5rem;
 }
 
@@ -312,9 +314,11 @@ nav {
 }
 
 #trophy {
-        height: 98rem;
+        object-fit: cover;
+        height: auto;
+        width: auto;
+
         margin-right: 1rem;
-        width: 98%;
 }
 
 #last-result {
@@ -481,7 +485,7 @@ td:nth-child(2) {
 #form-image {
     height:77.3vh;
     width: 100%;
-    background: url(../Assets/images/form-image.jpg) no-repeat center top;
+    background: url(../Assets/images/form-image.webp) no-repeat center top;
     background-size: 100% 77.3vh;
     position: relative;
 }
