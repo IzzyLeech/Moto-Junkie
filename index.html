@@ -1446,21 +1446,37 @@
     <section id="sign-up">
     
     <div id="form-image"></div>
-    <form method="POST" action="" id="signup-form">
-        <h2>Sign Up For the Weekly Newsletter!🏍</h2>
 
-        <label for="fname">First Name</label>
-        <input id="fname" name="first_name" type="text" class="text-input" placeholder="John" required>
+    <div id="signup-form">
 
-        <label for="lname">Last Name</label>
-        <input id="lname" name="last_name" type="text" class="text-input" placeholder="Doe" required>
+        <form method="POST" action="">
+            <div class="grid-row">
 
-        <label for="email">Email Address</label>
-        <input id="email" name="email_address" type="email" class="text-input" placeholder="@gmail.com" required>
+                <div class="grid-column">
+                <h2>Sign Up For the Weekly Newsletter!🏍</h2>
+                </div>
 
-        <input type="submit" value="Submit" id="submit">
+                <div class="grid-column">    
+                <label for="fname">First Name:</label>
+                <input id="fname" name="first_name" type="text" class="text-input" placeholder="John" required>
+                </div>
+                
+                <div class="grid-column">
+                <label for="lname">Last Name:</label>
+                <input id="lname" name="last_name" type="text" class="text-input" placeholder="Doe" required>
+                </div>
+                
+                <div class="grid-column">
+                <label for="email">Email Address:</label>
+                <input id="email" name="email_address" type="email" class="text-input" placeholder="@gmail.com" required>
+                </div>    
+            </div>
 
-    </form>
+            <input type="submit" value="Submit" id="submit">
+
+        </form>
+
+    </div>    
     </section>
 
     <footer>

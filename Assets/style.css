@@ -457,17 +457,29 @@ td:nth-child(2) {
 /*Newsletter*/
 
 #sign-up {
-    height: 86rem;
+    height: auto;
     width: 100%;
     position: relative;
 }
 
+.grid-row {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.grid-column {
+    padding: 10px 20px;
+    text-align: left;
+}
+
 #sign-up #signup-form h2{
     color: var(--electric-lime);
+    font-size: 20px;
+
 }
 
 #form-image {
-    height: 86rem;
+    height:77.3vh;
     width: 100%;
     background: url(../Assets/images/form-image.jpg) no-repeat center top;
     background-size: 100% 77.3vh;
@@ -475,15 +487,16 @@ td:nth-child(2) {
 }
 
 #signup-form {
-    padding: 50px;
-    width: 300px;
+    padding: 10px 10px;
+    margin: 0 5%;
+    border-radius: 20px;
 
     color: var(--electric-lime);
     background-color: var(--jet-black);
 
     position: absolute;
-    top: 25rem;
-    right: 3rem;
+    bottom: 20rem;
+    right: -3rem;
 }
 
 #signup-form h2 {
@@ -491,21 +504,31 @@ td:nth-child(2) {
     margin-top: 0;
 }
 
+input,label {
+    display: block;
+}
+
 .text-input {
     background-color: var(--jet-black);
-    color: white;
-    width: 100%;
+    color: var(--electric-lime);
+    width: 60%;
+    
 
     border: 2px solid white;
-    margin: 2px 0 15px
 }
 
 #submit {
     text-align: center;
-    margin-top: 2px;
+    margin-top: 5px;
+    margin-left: 20px;
     padding: 8px 15px;
+    border: none;
+    border-radius: 50px;
     background-color: var(--electric-lime);
     color: var(--jet-black);
+    text-transform: uppercase;
+    font-weight: 700;
+    
 }
 
 ::-webkit-input-placeholder {
@@ -692,7 +715,21 @@ footer {
         margin-left: 0;
     }
 
-    
+    #sign-up #signup-form form .grid-row .grid-column h2 {
+        font-size: 20px;
+        background-color: var(--jet-black);
+        color: var(--electric-lime);
+    }
+
+    #signup-form {
+        background-color: transparent;
+        font-size: 20px;
+    }
+
+    label {
+        background-color: var(--jet-black);
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width:692px) {
@@ -749,6 +786,7 @@ footer {
         margin-top: 2rem;
         
     }
+
 }
 
 @media only screen and (max-width:420px)  {
@@ -847,15 +885,10 @@ footer {
     #signup-form {
         padding: 20px;
         width: 200px;
-        top: 100px;
-        right: 10px;
+        margin: auto;
+        top: 1rem;
+        right: 0rem;
     }
 
-    #sign-up {
-        height: 50rem;
-    }
-
-    #form-image{
-        height: 50rem;
-    }
+    
 }
