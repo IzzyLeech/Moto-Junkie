@@ -113,7 +113,7 @@ nav {
 #main-img {
     height: 115.5vh;
     width: 100%;
-    background: url(../assets/images/index.v2.webp) no-repeat center center;
+    background: url(../images/index.v2.webp) no-repeat center center;
     background-size: contain;
     background-size: 100% 115.5vh;
     position: relative;
@@ -506,7 +506,7 @@ td:nth-child(2) {
 #form-image {
     height:77.3vh;
     width: 100%;
-    background: url(./images/form-image.webp) no-repeat center top;
+    background: url(../images/form-image.webp) no-repeat center top;
     background-size: 100% 77.3vh;
     position: relative;
 }
