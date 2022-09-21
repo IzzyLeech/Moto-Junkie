@@ -75,7 +75,14 @@ x-x-large      1770px
 
 Wireframe
 
-Features
+# Features
+
+## Existing Features
+
+### Navigation Bar
+
+![Navigation bar] (wireframe/av-bar.png)
+-
 
 
 
