@@ -702,6 +702,8 @@ footer {
         #main-content .row{
             display: flex;
             flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         #up-races{
@@ -892,6 +894,7 @@ footer {
     #track {
         height: auto;
         width: 270px;
+        padding-left: 5%;
     }
 
     #trophy {
