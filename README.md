@@ -54,7 +54,7 @@ Design Choices
 
 Fonts
 
-For my fonts I have used Google Fonts to search for a font that would suit the aesthetic of my website. From my search, I have decide to use two font styles. The first font is called Lora. This font is for the main font for all content inforamtion. Reasons for using this font are it been not to stylised and having a simple readable decor. The second font is called Arvo. This font is for all the headers and navigation bar. Reasons for using this font are having a differential style to Lora, so it can stand from the main content although it can compliment to it as well.
+For my fonts I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to search for a font that would suit the aesthetic of my website. From my search, I have decide to use two font styles. The first font is called [Lora](https://fonts.google.com/specimen/Lora?query=Lora). This font is for the main font for all content inforamtion. Reasons for using this font are it been not to stylised and having a simple readable decor. The second font is called [Arvo](https://fonts.google.com/specimen/Arvo?query=arvo). This font is for all the headers and navigation bar. Reasons for using this font are having a differential style to Lora, so it can stand from the main content although it can compliment to it as well.
 
 Icons
 
@@ -164,6 +164,8 @@ At lower screen size (970px) a scroll function will be place so that the table d
 
 ![Sign Up Form](wireframe/sign-up-form-x-small.png)
 
+## Languages
+*
 
 
 Visaul aid will be demonstrated in  the wireframe Balsamiq
