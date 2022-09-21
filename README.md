@@ -59,7 +59,25 @@ I have use Icons from Font Awesome Library and Flagicons. The icons from Font Aw
 
 Colors 
 
-I used Encycolorpedia to pick out colors for my website. The main color I used throught the website was electric lime #ccff00 a color that is synonymous to fans of Moto GP that represent the color of Valentino Rossi leather's and bike fairings. To complement this color I used jet black #0A0A0A which scores a high contrast ratio on Webaim. Using these two colors that work in function in reverse of foreground and background the user will not have diffcult experience of viewing the inforamtion of the website. I used blue lightning #3393FF for hover effect on the navigation bar, the tables, the social inks and the submit button. It was also implement on borders to distinguise different section of content.         
+I used Encycolorpedia to pick out colors for my website. The main color I used throught the website was electric lime #ccff00 a color that is synonymous to fans of Moto GP that represent the color of Valentino Rossi leather's and bike fairings. To complement this color I used jet black #0A0A0A which scores a high contrast ratio on Webaim. Using these two colors that work in function in reverse of foreground and background the user will not have diffcult experience of viewing the inforamtion of the website. I used blue lightning #3393FF for hover effect on the navigation bar, the tables, the social inks and the submit button. It was also implement on borders to distinguise different section of content. All of the rest of the colors that I used were to represnt the podium posistion for 1st(gold #D4AF37), 2nd(silver #C0C0C0), 3rd(bronze #cd7f32) and retired(violet #EE82EE)
+
+Stucture
+
+I built my website by desktop size first and then downsized it to the smallest screen size of a Samsung Galaxy Fold (280px) 
+
+Screen Size  Breakpoint
+x-small       420px
+small          570px
+medium         970px
+large          1330px
+x-large        1548px
+x-x-large      1770px
+
+Wireframe
+
+Features
+
+
 
 
 Visaul aid will be demonstrated in  the wireframe Balsamiq
