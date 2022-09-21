@@ -81,7 +81,7 @@ Wireframe
 
 ### Navigation Bar
 
-![Navigation bar] (wireframe/av-bar.png)
+![Navigation bar] (wireframe/nav-bar.png)
 -
 
 
