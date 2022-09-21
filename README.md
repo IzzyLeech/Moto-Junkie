@@ -1,3 +1,5 @@
+![Logo](wireframe/logo.png)
+
 # Hitting The Apex
 Portfolio Project 1 
 The Purpose of Hitting The Apex is to created a website that caters to the needs of fans of Moto GP.
@@ -81,8 +83,11 @@ Wireframe
 
 ### Navigation Bar
 
-![Navigation bar] (wireframe/nav-bar.png)
--
+![Navigation bar](wireframe/nav-bar.png)
+
+![Navigation hover](wireframe/nav-hover.png)
+
+
 
 
 
