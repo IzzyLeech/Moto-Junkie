@@ -109,6 +109,10 @@ desktop
 
 ![Rider and Team Section](wireframe/rider-team-section.png)
 
+![Rider and Team Section Tablet](wireframe/rider-team-section-tablet.png)
+
+![Rider and Team Section Mobile](wireframe/rider%20and%20team-section-mobile.png)
+
 
 
 

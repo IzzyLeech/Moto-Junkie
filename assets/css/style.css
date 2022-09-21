@@ -103,7 +103,7 @@ nav {
 #main-img {
     height: 115.5vh;
     width: 100%;
-    background: url(./assets/images/index.v2.webp) no-repeat center center;
+    background: url(/assets/images/index.v2.webp) no-repeat center center;
     background-size: contain;
     background-size: 100% 115.5vh;
     position: relative;
@@ -118,6 +118,7 @@ nav {
     font-size: 14px;
     line-height: 25px;
     border: 1px solid var(--blue-lightning);
+    padding-bottom: .5%;
 
     position: absolute;
     left: 20px;
@@ -136,7 +137,7 @@ nav {
     height: 9rem;
     text-align: center;
     border: 1px solid var(--blue-lightning);
-    
+    padding-bottom: 5%;
     position: absolute;
     top: 230px;
     left: 20px;
@@ -490,7 +491,7 @@ td:nth-child(2) {
 #form-image {
     height:77.3vh;
     width: 100%;
-    background: url(./assets/images/form-image.webp) no-repeat center top;
+    background: url(/assets/images/form-image.webp) no-repeat center top;
     background-size: 100% 77.3vh;
     position: relative;
 }
