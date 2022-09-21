@@ -87,7 +87,15 @@ Wireframe
 
 ![Navigation hover](wireframe/nav-hover.png)
 
+![Landing page](wireframe/landing-page.png)
 
+![Mobile Landing](wireframe/mobile-landing.png)
+
+![Upcoming Races](wireframe/upcoming-races-section.png)
+
+![Championship Leader](wireframe/leader-section.png)
+
+![latest Result](wireframe/result-section.png)
 
 
 
