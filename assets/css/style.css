@@ -947,4 +947,8 @@ footer {
         right: 0rem;
     }
 
+    label,.text-input {
+        width: 100%;
+    }
+
 }
