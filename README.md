@@ -150,9 +150,7 @@ At lower screen size (970px) a scroll function will be place so that the table d
 
 ![Table Section with Scroll](wireframe/table-section-scroll.png)
 
-
-
-
+### Rider and Team
 
 ![Rider and Team Section](wireframe/rider-team-section.png)
 
@@ -160,8 +158,11 @@ At lower screen size (970px) a scroll function will be place so that the table d
 
 ![Rider and Team Section Mobile](wireframe/rider%20and%20team-section-mobile.png)
 
+![Sign Up Form](wireframe/sign-up%20section.png)
 
+![Sign Up Form](wireframe/sign-up-section-large.png)
 
+![Sign Up Form](wireframe/sign-up-section-xsmall.png)
 
 
 
