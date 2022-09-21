@@ -51,6 +51,15 @@ Design Choices
 
 Fonts
 
+For my fonts I have used Google Fonts to search for a font that would suit the aesthetic of my website. From my search, I have decide to use two font styles. The first font is called Lora. This font is for the main font for all content inforamtion. Reasons for using this font are it been not to stylised and having a simple readable decor. The second font is called Arvo. This font is for all the headers and navigation bar. Reasons for using this font are having a differential style to Lora, so it can stand from the main content although it can compliment to it as well.
+
+Icons
+
+I have use Icons from Font Awesome Library and Flagicons. The icons from Font Awesome are more for visual reprensation of socail media links and decor to resemble visual style for differrnt part of content ie flag, trophy and medals. The icons used from Flagicons will be more widely use throught the website for the purpose of indiacating the nationality of rider and where the team is based. It will also reprents the country where the races are taking place in.
+
+Colors 
+
+I used Encycolorpedia to pick out colors for my website. The main color I used throught the website was electric lime #ccff00 a color that is synonymous to fans of Moto GP that represent the color of Valentino Rossi leather's and bike fairings. To complement this color I used jet black #0A0A0A which scores a high contrast ratio on Webaim. Using these two colors that work in function in reverse of foreground and background the user will not have diffcult experience of viewing the inforamtion of the website. I used blue lightning #3393FF for hover effect on the navigation bar, the tables and the submit button. It was also implement on borders to distinguise different section of content.        
 
 
 Visaul aid will be demonstrated in  the wireframe Balsamiq

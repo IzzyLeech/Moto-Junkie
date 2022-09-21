@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:wght@500&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lora&display=swap');
 
 :root {
     --gold: #D4AF37;
@@ -26,7 +26,7 @@ html {
 body {
     background-color: var(--electric-lime);
     color: var(--jet-black);
-    font-family: 'Lara',sans-serif;
+    font-family: 'Lora',sans-serif;
     font-size: 1.6rem;
 }
 
@@ -210,13 +210,13 @@ nav {
 
 #main-content h2 {
     text-align: center;
-    border-bottom: 2px solid var(--electric-lime);
+    border-bottom: 2px solid var(--blue-lightning);
     font-size: 5rem;
     
 }
 
 #main-content hr {
-    border-top: 2px dotted var(--electric-lime);
+    border-top: 2px dotted var(--blue-lightning);
 }
 
 #up-races {
@@ -385,7 +385,7 @@ table,th,td {
 }
 
 #table-3 {
-    margin-top: -10rem;
+    margin-top: 1rem;
     margin-left: 4rem;
 }
 
@@ -394,7 +394,7 @@ table,th,td {
 }
 
 tr:hover {
-    background-color: crimson;
+    background-color: var(--blue-lightning);
 }
 
 .gold {
@@ -532,6 +532,10 @@ input,label {
     
 }
 
+#submit:hover {
+    background-color: var(--blue-lightning);
+}
+
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: var(--electric-lime);
@@ -562,7 +566,6 @@ footer {
     align-content: center;
     justify-content: space-evenly;
 
-    background-color: var(--electric-lime);
 }
 
 #socials li {
@@ -570,17 +573,24 @@ footer {
 }
 
 #socials i {
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 2rem;
     padding: 1rem;
     color: var(--jet-black);
+    border-radius: 50%;
+}
+
+#socials a :hover {
+    color: var(--blue-lightning);
+    background-color: var(--jet-black);
+    transition: 0.5s ease-in;
 }
 
 @media  only screen and (max-width:1770px) {
 
     #table-2 {
         position: relative;
-        bottom: 100px;
+        bottom: -12px;
     }
     
 }
