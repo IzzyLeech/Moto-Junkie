@@ -85,15 +85,29 @@ Wireframe
 
 The navigation bar is implement with logo on the left side which will lead the user back to the top of the page when clicked. The links to each section on the right side that smoothly scroll to each section. The header section is in postion sticky for the use of having the navigation to scoll with movement through the site.
 
-desktop
+Desktop
 
 ![Navigation bar](wireframe/nav-bar.png)
 
-
+Example of the finished navigation bar with logo, four links.
 
 ![Navigation hover](wireframe/nav-hover.png)
 
+Example of the hover effect in practice for visual impaired user.
+
 ![Navigation Bar Hamburger](wireframe/nav-bar-ham.png)
+
+Example of the Hamburger Menu Icon when the screen is sized down for tablet.
+
+Mobile Devices
+
+![Navigation Bar Hamburger Open](wireframe/nav-bar-ham-open.png)
+
+Example of Hamburger Menu opened when clicked on a mobile device.
+
+### Landing Page
+
+The website opens to a large image to indicated to the user that it is a site for motocyling racing. There is welcome box giving detail of inforamtion that can be gather from the site and a link to encourage user to sign up for the newsletter. 
 
 ![Landing page](wireframe/landing-page.png)
 

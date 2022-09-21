@@ -88,15 +88,25 @@ nav {
 
 }
 
-.nav-link:hover {
-    color: var(--blue-lightning);
-}
-
 .logo {
     text-decoration: underline;
     color: var(--electric-lime);
     font-size: 5rem;
+    font-family: 'Arvo', sans-serif;
 }
+
+.logo:hover,
+.nav-link:hover {
+    color: var(--blue-lightning);
+}
+
+.logo:active,
+.nav-link:active {
+    color: var(--blue-lightning);
+    text-decoration: none;
+}
+
+
 
 /*main Image*/
 
