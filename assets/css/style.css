@@ -702,8 +702,6 @@ footer {
         #main-content .row{
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
         }
 
         #up-races{
@@ -875,10 +873,13 @@ footer {
         top: 630px;
     }
 
+    #main-content .row {
+        align-items: center;
+    }
+
     #main-content h2 {
         font-size: 2.5rem;
     }
-
     .section-head {
         font-size: 18px;
     }
