@@ -97,6 +97,12 @@ Wireframe
 
 ![latest Result](wireframe/result-section.png)
 
+![Table Section](wireframe/table-section.png)
+
+![Rider and Team Section](wireframe/rider-team-section.png)
+
+
+
 
 
 
