@@ -83,9 +83,17 @@ Wireframe
 
 ### Navigation Bar
 
+The navigation bar is implement with logo on the left side which will lead the user back to the top of the page when clicked. The links to each section on the right side that smoothly scroll to each section. The header section is in postion sticky for the use of having the navigation to scoll with movement through the site.
+
+desktop
+
 ![Navigation bar](wireframe/nav-bar.png)
 
+
+
 ![Navigation hover](wireframe/nav-hover.png)
+
+![Navigation Bar Hamburger](wireframe/nav-bar-ham.png)
 
 ![Landing page](wireframe/landing-page.png)
 
