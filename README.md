@@ -162,7 +162,7 @@ At lower screen size (970px) a scroll function will be place so that the table d
 
 ![Sign Up Form](wireframe/sign-up-section-large.png)
 
-![Sign Up Form](wireframe/sign-up-section-xsmall.png)
+![Sign Up Form](wireframe/sign-up-form-x-small.png)
 
 
 
