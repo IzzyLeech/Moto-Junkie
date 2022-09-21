@@ -113,7 +113,7 @@ nav {
 #main-img {
     height: 115.5vh;
     width: 100%;
-    background: url(../assets/images/index.v2.webp) no-repeat center center;
+    background: url(assets/images/index.v2.webp) no-repeat center center;
     background-size: contain;
     background-size: 100% 115.5vh;
     position: relative;
@@ -122,17 +122,22 @@ nav {
 #welcome {
     background-color: var(--jet-black);
     color: var(--electric-lime);
-    width: 30rem;
+    width: 48rem;
     height: auto;
     min-height: auto;
     font-size: 14px;
     line-height: 25px;
     border: 1px solid var(--blue-lightning);
     padding-bottom: .5%;
-
+    padding-left: 25px;
     position: absolute;
     left: 20px;
     top:30px;
+}
+
+#welcome p {
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 #welcome h3 {
@@ -726,7 +731,21 @@ footer {
         }
 
 @media only screen and (max-width:970px) {
+
+    #welcome {
+        width: 30rem;
+    }
+
+    #welcome p {
+        font-size: 15px;
+    }
     
+    #text-box {
+        top: 275px;
+    }
+
+
+
     #table-1 {
         display: block;
         overflow-x: auto;
