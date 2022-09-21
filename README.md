@@ -59,7 +59,7 @@ I have use Icons from Font Awesome Library and Flagicons. The icons from Font Aw
 
 Colors 
 
-I used Encycolorpedia to pick out colors for my website. The main color I used throught the website was electric lime #ccff00 a color that is synonymous to fans of Moto GP that represent the color of Valentino Rossi leather's and bike fairings. To complement this color I used jet black #0A0A0A which scores a high contrast ratio on Webaim. Using these two colors that work in function in reverse of foreground and background the user will not have diffcult experience of viewing the inforamtion of the website. I used blue lightning #3393FF for hover effect on the navigation bar, the tables and the submit button. It was also implement on borders to distinguise different section of content.        
+I used Encycolorpedia to pick out colors for my website. The main color I used throught the website was electric lime #ccff00 a color that is synonymous to fans of Moto GP that represent the color of Valentino Rossi leather's and bike fairings. To complement this color I used jet black #0A0A0A which scores a high contrast ratio on Webaim. Using these two colors that work in function in reverse of foreground and background the user will not have diffcult experience of viewing the inforamtion of the website. I used blue lightning #3393FF for hover effect on the navigation bar, the tables, the social inks and the submit button. It was also implement on borders to distinguise different section of content.         
 
 
 Visaul aid will be demonstrated in  the wireframe Balsamiq

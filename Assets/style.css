@@ -98,10 +98,12 @@ nav {
     font-size: 5rem;
 }
 
+/*main Image*/
+
 #main-img {
     height: 115.5vh;
     width: 100%;
-    background: url(../Assets/images/index.v2.webp) no-repeat center center;
+    background: url(../assets/images/index.v2.webp) no-repeat center center;
     background-size: contain;
     background-size: 100% 115.5vh;
     position: relative;
@@ -149,6 +151,8 @@ nav {
     text-transform: uppercase;
 }
 
+/*anchor links*/
+
 #info{
     width: 100%;
     height: 6rem;
@@ -188,6 +192,8 @@ nav {
     visibility: hidden;
     margin-top: -100px;
 }
+
+/*main content*/
 
 #main-content {
     background-color: var(--electric-lime);
@@ -242,8 +248,9 @@ nav {
 
 #track img {
     object-fit: contain;
-    float: right;
+    height: auto;
     width: 100%;
+    min-width: 100%;
 }
 
 #leader-sec{
@@ -314,7 +321,9 @@ nav {
 
 #trophy img {
     object-fit: contain;
+    height: auto;
     width: 1000px;
+    min-width: 1000px;
 }
 #last-result {
     background-color: var(--jet-black);
@@ -481,7 +490,7 @@ td:nth-child(2) {
 #form-image {
     height:77.3vh;
     width: 100%;
-    background: url(../Assets/images/form-image.webp) no-repeat center top;
+    background: url(../assets/images/form-image.webp) no-repeat center top;
     background-size: 100% 77.3vh;
     position: relative;
 }
@@ -497,7 +506,7 @@ td:nth-child(2) {
 
     position: absolute;
     bottom: 20rem;
-    right: -3rem;
+    right: -2rem;
 }
 
 #signup-form h2 {
@@ -573,7 +582,7 @@ footer {
 }
 
 #socials i {
-    font-size: 5rem;
+    font-size: 3rem;
     margin: 2rem;
     padding: 1rem;
     color: var(--jet-black);
@@ -838,15 +847,17 @@ footer {
     }
 
     #main-content {
-        margin: 10px 15px;
+        margin: 10px 5px;
     }
 
     #track {
-        height: 60vh;
+        height: auto;
+        width: 270px;
     }
 
     #trophy {
-        height: 60vh;
+        height: auto;
+        width: 270px;
     }
 
     #table h2 {
