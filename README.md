@@ -28,7 +28,8 @@ As a user, I want to  know the points scored on all races for each rider.
 
 Site Owner Goals
 Promote the sport of moto racing.
-Increase the fanbase of Moto gp
+Increase the fanbase of Moto gp.
+To encourage user to sign up for the newsletter.
 Increase rankings on seach engines.
 To have the website updated on the lastest race.
 To keep building on the Website in other area of motosports in the future.
@@ -111,15 +112,47 @@ The website opens to a large image to indicated to the user that it is a site fo
 
 ![Landing page](wireframe/landing-page.png)
 
+Example of the landing page on a mobile device
+
 ![Mobile Landing](wireframe/mobile-landing.png)
+
+### Info 
+
+The info has three area of content, upcoming races, championship leader and latest result.
+
+The First area upcoming races will showcase all remaining races of the championship season. An images will be partnered with this section showing the track of the next races. Inforamtion showing is date of race, country of races and name of the track.   
 
 ![Upcoming Races](wireframe/upcoming-races-section.png)
 
+The second area championship leader will show the 1st 2nd and 3rd riders that are leading the championship. An image of the Moto GP will be partnered with this section. Inforamtion showing in this section are image of rider, name of rider, bike that they ride and points total. 
+
 ![Championship Leader](wireframe/leader-section.png)
+
+The final area latest result will give inforamtion of the last races that was competed. An video will be showcase beside this area to show highlights of the race. Inforamtion showing in this section will include podium posistion, name of rider and bike of rider.
 
 ![latest Result](wireframe/result-section.png)
 
+### Tables
+
+The table section gives an detail account of the rider championship table and the constructor championship. The rider table will give information on all riders and how many points were scored in each races. All points will totaled to determine their place in the table. Colors of gold, silver and bronze will determine podium place and violet will mean retired(did not finish races). P and F will also partner the rider placement who accomplish the requirment.  An annotation table will give meaning to pole position, fastest lap and retired. The constructor table will demostrated the same function of the rider except it been for the manufactors. A hover effect can be use on the table to highlight the row that is being viewed for ease of tracking the inforamtion.      
+
 ![Table Section](wireframe/table-section.png)
+
+Table at extra extra large (1770px)
+
+![Table Section x x large](wireframe/table%20xx%20large.png)
+
+Table at extra large switch column (1548px)
+
+![Table Section x large](wireframe/table%20x%20large.png)
+
+At lower screen size (970px) a scroll function will be place so that the table doesnt shrink so the inforamtion doesnt become unviewable.
+
+![Table Section with Scroll](wireframe/table-section-scroll.png)
+
+
+
+
 
 ![Rider and Team Section](wireframe/rider-team-section.png)
 
