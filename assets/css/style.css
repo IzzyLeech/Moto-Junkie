@@ -30,6 +30,13 @@ body {
     font-size: 1.6rem;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Arvo" sans-serif;
+}
+
 /*Main Styles*/
 
 /*Header Section*/
@@ -189,6 +196,8 @@ nav {
     height: 6rem;
 }
 
+/* Section Header*/
+
 .section-head {
     display: flex;
     align-items: center;
@@ -197,7 +206,6 @@ nav {
     font-size: 8rem;
     text-transform: capitalize;
     background-color: var(--jet-black);
-
     margin-top: 5rem;
 }
 
@@ -241,6 +249,8 @@ nav {
     border-top: 2px dotted var(--blue-lightning);
 }
 
+/* Up Coming Races*/
+
 #up-races {
     height: 658px;
     width: 75%;
@@ -269,6 +279,8 @@ nav {
     width: 100%;
     min-width: 100%;
 }
+
+/*Championship Leader*/
 
 #leader-sec{
     background-color: var(--jet-black);
@@ -336,12 +348,17 @@ nav {
     color: var(--jet-black);
 }
 
+/*Trophy*/
+
 #trophy img {
     object-fit: contain;
     height: auto;
     width: 1000px;
     min-width: 1000px;
 }
+
+/*Latest Result*/
+
 #last-result {
     background-color: var(--jet-black);
     color: var(--electric-lime);
@@ -369,6 +386,7 @@ nav {
     margin-bottom: 1rem;
     margin-left: 2rem;
 }
+/*video*/
 
 iframe{
     width: 87%;
