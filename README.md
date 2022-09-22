@@ -27,10 +27,10 @@ The website will demonstrate easily digestible information to quickly catch up o
             * [Landing Page](#landing-page)
             * [Info](#info)
             * [Tables](#tables)
-            * [Rider and Team](#ridre-and-team)
+            * [Rider and Team](#rider-and-team)
             * [Sign UP](#sign-up)
             * [Footer](#footer)
-        * [Features to be implemented](#features-to-be-implemented)
+        * [Features To Be added](#features-to-be-added)
     * [Technologies used](#technologies-used)
         * [Languages](#languages)
         * [Tools and Libraries](#tools-and-libraries)
@@ -126,7 +126,7 @@ I built my website by desktop size first and then downsized it to the smallest s
 
 # Wireframes
 
-I used Balsamic to create wireframes for my Website.I design wireframes for desktop design, tablet design and mobile design. Each wireframes is linked below.
+I used Balsamic to create wireframes for my Website. I design wireframes for desktop design, tablet design ,and mobile design. Each wireframe is linked below.
 
 ### [Desktop Wireframe](wireframe/hitting%20the%20apex%20Desktop.bmpr)
 ### [Tablet Wireframe](wireframe/hitting%20the%20apex%20Tablet.bmpr)
@@ -144,23 +144,22 @@ I used Balsamic to create wireframes for my Website.I design wireframes for desk
 
 ### Navigation Bar
 
-The navigation bar is implement with logo on the left side which will lead the user back to the top of the page when clicked. The links to each section on the right side that smoothly scroll to each section. The header section is in postion sticky for the use of having the navigation to scoll with movement through the site.
+The navigation bar is implemented with a logo on the left side which will lead the user back to the top of the page when clicked. The links to each section on the right side smoothly scroll to each section. The header section is in position sticky for the use of having the navigation to scroll with movement through the site.
 
 * Desktop
 
 ![Navigation bar](wireframe/nav-bar.png)
 
-Example of the finished navigation bar with logo, four links.
+Example of the finished navigation bar with logo, and four links.
 
 ![Navigation hover](wireframe/nav-hover.png)
 
-Example of the hover effect in practice for visual impaired user.
+Example of the hover effect in practice for the visually impaired user.
 
 ![Navigation Bar Hamburger](wireframe/nav-bar-ham.png)
 
 Example of the Hamburger Menu Icon when the screen is sized down for tablet.
 
-Mobile Devices
 
 ![Navigation Bar Hamburger Open](wireframe/nav-bar-ham-open.png)
 
@@ -174,7 +173,7 @@ Example of Hamburger Menu opened when clicked on a mobile device.
 
 ### Landing Page
 
-The website opens to a large image to indicated to the user that it is a site for motocyling racing. There is welcome box giving detail of inforamtion that can be gather from the site and a link to encourage user to sign up for the newsletter. 
+The website opens to a large image to indicate to the user that it is a site for motorcycling racing. There is a welcome box giving detail of information that can be gathered from the site and a link to encourage the user to sign up for the newsletter. 
 
 ![Landing page](wireframe/landing-page.png)
 
@@ -190,17 +189,17 @@ Example of the landing page on a mobile device
 
 ### Info 
 
-The info has three area of content, upcoming races, championship leader and latest result.
+The info has three areas of content, upcoming races, championship leaders, and the latest result.
 
-The First area upcoming races will showcase all remaining races of the championship season. An images will be partnered with this section showing the track of the next races. Inforamtion showing is date of race, country of races and name of the track.   
+The First area upcoming races will showcase all remaining races of the championship season. Images will be partnered with this section showing the track of the next races. Information showing is the date of the race, country of race and name of the track.   
 
 ![Upcoming Races](wireframe/upcoming-races-section.png)
 
-The second area championship leader will show the 1st 2nd and 3rd riders that are leading the championship. An image of the Moto GP will be partnered with this section. Inforamtion showing in this section are image of rider, name of rider, bike that they ride and points total. 
+The second area championship leader will show the 1st 2nd and 3rd riders that are leading the championship. An image of the Moto GP will be partnered with this section. The information shown in this section is the image of the rider, the name of the rider, the bike that they ride, and points total. 
 
 ![Championship Leader](wireframe/leader-section.png)
 
-The final area latest result will give inforamtion of the last races that was competed. An video will be showcase beside this area to show highlights of the race. Inforamtion showing in this section will include podium posistion, name of rider and bike of rider.
+The final area's latest result will give information on the last races that were competed. A video will be showcased beside this area to show highlights of the race. The information shown in this section will include podium position, name of rider, and bike of rider.
 
 ![latest Result](wireframe/result-section.png)
 
@@ -212,7 +211,7 @@ The final area latest result will give inforamtion of the last races that was co
 
 ### Tables
 
-The table section gives an detail account of the rider championship table and the constructor championship. The rider table will give information on all riders and how many points were scored in each races. All points will totaled to determine their place in the table. Colors of gold, silver and bronze will determine podium place and violet will mean retired(did not finish races). P and F will also partner the rider placement who accomplish the requirment.  An annotation table will give meaning to pole position, fastest lap and retired. The constructor table will demostrated the same function of the rider except it been for the manufactors. A hover effect can be use on the table to highlight the row that is being viewed for ease of tracking the inforamtion.      
+The table section gives a detailed account of the rider championship table and the constructor championship. The rider table will give information on all riders and how many points were scored in each race. All points will be totaled to determine their place in the table. Colors of gold, silver, and bronze will determine podium place and violet will mean retired(did not finish races). P and F will also partner with the rider placement who accomplish the requirements.  An annotation table will give meaning to pole position, fastest lap, and retired. The constructor table will demonstrate the same function of the rider except it has been for the manufacturers. A hover effect can be used on the table to highlight the row that is being viewed for ease of tracking the information.      
 
 ![Table Section](wireframe/table-section.png)
 
@@ -236,7 +235,7 @@ At lower screen size (970px) a scroll function will be place so that the table d
 
 ### Rider and Team
 
-The rider and team section will give user inforamtion on all the riders participating in the championship. It will detail the team that the rider is a part of, give a breif detail on the rider and an image of the rider.
+The rider and team section will give the user information on all the riders participating in the championship. It will detail the team that the rider is a part of, give a brief detail on the rider, and an image of the rider.
 
 ![Rider and Team Section](wireframe/rider-team-section.png)
 
@@ -250,7 +249,7 @@ The rider and team section on mobile screen (570px)
 
 ### Sign UP
 
-The Newsletter section will give user the opportunity to interracted with the website. The user can enter their detail to sign up for a weekly newsletter for the purpose of staying up to date with the content of the site.  
+The Newsletter section will allow the user to interact with the website. The user can enter their detail to sign up for a weekly newsletter to stay up to date with the content of the site.  
 
 ![Sign Up Form](wireframe/sign-up%20section.png)
 
@@ -292,6 +291,8 @@ Newsletter section on mobile.(420px)
 + To add columnist to write opinion pieces that can be implemented to a blog section.
 + A gallery section of photes taking at races.
 
+# Technologies used
+
 ## Languages
 * [HTML](https://www.w3schools.com/html/ "HTML")
 * [CSS](https://www.w3schools.com/css/ "CSS")
@@ -323,33 +324,31 @@ Newsletter section on mobile.(420px)
 
 # Testing
 
-From testing the site, overall I feel the goal that I set out were met. The site is responsive to small devices(Galaxy fold, Iphone), medium devices (Ipad, Galaxy Tab), large devices(laptop, desktop.). Images size appropriately to the screen sizes staying in it aspect ratio and looking clear. Section stay center through responsive with layout staying consistent. The inforamtion is up to date and resembles the needs of the user.
+From testing the site, overall I feel the goal that I set out was met. The site is responsive to small devices(Galaxy fold, iPhone), medium devices (Ipad, Galaxy Tab), and large devices(laptop, desktop.). Images size appropriately to the screen sizes staying in their aspect ratio and looking clear. Section stays center through responsive with layout staying consistent. The information is up to date and resembles the needs of the user.
 
-\
-&nbsp;
 
-Problem's that I experience during testing.
+The problems that I experience during testing.
 
-+ I had to add an extra media query of max-width 1770px to fix an issues of the annotaion table not staying inline with constructor table that would happen when the screen width  went below 1770px.
++ I had to add an extra media query of max-width 1770px to fix issues of the annotation table not staying in line with the constructor table that would happen when the screen width went below 1770px.
 
-+ I added grid posistion to my form content for better reponsive after testing with standard box model wasnt effiecent enough.
++ I added grid position to my form content for better reponsive after testing with the standard box model wasn't efficient enough.
 
-+ I restructured my main-content's flex from originally being flex wrap on larger screen to change it to a grid and column flex hybrid. I used flew wrap on rows and flex basis on the column so it would be better reponsive on larger screen. It would switch to column on smaller screen with media query. This was also implemented on the rider section.
++ I restructured my main content's flex from originally being flex-wrap on a larger screen to changing it to a grid and column flex hybrid. I used flew wrap on rows and flex-basis on the column so it would be better responsive on a larger screen. It would switch to the column on a smaller screen with a media query. This was also implemented in the rider section.
 
-+ At first during testing I taught the table were responsive when sized but with further inspecting it was clearly not. To fixes the problem I added a scroll to the rider championship table and the constructor table.
++ At first, during testing, I taught the table was responsive when sized but with further inspection, it was not. To fix the problem I added a scroll to the rider championship table and the constructor table.
 
-+  When deploying my site to github pages, I encoutered the problem of my styelsheet not linking to my Html. The problem occured from my assets folder being capitalize. I first change the "a" to uppercase so It would link, but sticking to industry standard of having dictoerys in lowercase. I uses the git command of git mv casesensitive tmp,git mv tmp CaseSensitive to fix the problem.
++  When deploying my site to GitHub pages, I encountered the problem of my stylesheet not linking to my Html. The problem occurred from my assets folder being capitalized. I first change the "a" to uppercase so It would link, but sticking to the industry standard of having the directory in lowercase. I use the git command of git mv case-sensitive tmp,git mv tmp CaseSensitive to fix the problem.
 
-+ Error's I encounted when I ran my HTML through validator w3 were using the <bold> element in my <th> element which is by default already a style of the element. Adding px to my width and height img tags, leaving my ACTION in my FORM element empty and leaving my SRCSET empty in my img tag. To fix these error's I deleted all the inappropiate values that were needed. [Result](wireframe/html%20validator.png "W3C HTML") 
++ Error's I encountered when I ran my HTML through validator w3 was using the <bold> element in my <th> element which is by default already a style of the element. Adding px to my width and height img tags, leaving my ACTION in my FORM element empty, and leaving my SRCSET empty in my img tag. To fix this error I deleted all the inappropriate values that were needed. [Result](wireframe/html%20validator.png "W3C HTML") 
 
-+ Error's I encouted when I ran my CSS through validator w3 jigsaw were reorangise my overflow rule last in the upcoming section, a spell check in my .nav-menu, and deleting a word-break rule that was deprecated. I have 5 warnings for vender extension. [Result](wireframe/css%20validator.png "W3C CSS")
++ Error's I encountered when I ran my CSS through validator w3 jigsaw were reorganizing my overflow rule last in the upcoming section, spell checks in my .nav-menu, and deleting a word-break rule that was deprecated. I have 5 warnings for vendor extension. [Result](wireframe/css%20validator.png "W3C CSS")
 
 \
 &nbsp;
 
 ## Unfixed Bugs 
 
-A bug that I encouted was having marign on the left or right of a table that was in scroll. If I had a margin on when the scroll appeared on lower screen size the table would overflow out of the margin set impeading the visual of the start row and the end row. To compromise I turned off margin left and right for visual structure inconsistency.
+A bug that I encountered was having a margin on the left or right of a table that was in the scroll. If I had a margin on when the scroll appeared on the lower screen size the table would overflow out of the margin set impending the visual of the start row and the end row. To compromise I turned off the margin left and right for visual structure inconsistency.
 
 \
 &nbsp;
@@ -359,7 +358,7 @@ A bug that I encouted was having marign on the left or right of a table that was
 
 # Deployment
 
-Project was deployed on GitHub using the page feature.
+Project was deployed on GitHub using the page feature. Link to [Page](https://izzyleech.github.io/hitting-the-apex/"Hitting-the-Apex")
 
 \
 &nbsp;
@@ -371,9 +370,6 @@ Project was deployed on GitHub using the page feature.
 
 For Code
 * [Gaurav](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci)
-
-\
-&nbsp;
 
 For Content
 * [Moto GP](https://www.motogp.com/)
