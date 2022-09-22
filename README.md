@@ -3,7 +3,41 @@
 # Hitting The Apex
 # Goal for project
 The Purpose of Hitting The Apex is to creat a website that caters to the needs of fans of Moto GP.
-The website will demonstrate easily digestible information to quickly catch up on the going on of the current season, which current fans will be able to quickly catch up on and also will be easily understandable for newer fans of Moto Gp. The Website will give information on the current 2022 championship. The site will also give the user an option to sign up for the weekly newsletter, so they can make contact with the website weekly.  
+The website will demonstrate easily digestible information to quickly catch up on the going on of the current season, which current fans will be able to quickly catch up on and also will be easily understandable for newer fans of Moto Gp. The Website will give information on the current 2022 championship. The site will also give the user an option to sign up for the weekly newsletter, so they can make contact with the website weekly.
+
+![Does It Fit](wireframe/does%20it%20fit.png)
+
+# Table of Contents
+* [UX](#ux "UX")
+    * [User Goals](#user-goals "User Goals")
+    * [User Stories](#user-stories "User Stories")
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+         * [Requirements](#requirements)
+         * [Expectations](#expectations)
+     * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colours](#colours)
+        * [Structure](#structure)
+    * [Wireframes](#wireframes)
+    * [Features](#features)
+        * [Existing Features](#existing-features)
+            * [Navigation Bar](#navigation-bar)
+            * [Landing Page](#landing-page)
+            * [Info](#info)
+            * [Tables](#tables)
+            * [Rider and Team](#ridre-and-team)
+            * [Sign UP](#sign-up)
+            * [Footer](#footer)
+        * [Features to be implemented](#features-to-be-implemented)
+    * [Technologies used](#technologies-used)
+        * [Languages](#languages)
+        * [Tools and Libraries](#tools-and-libraries)
+    * [Testing](#testing)
+        * [Unfixed Bugs](#unfixed-bugs)
+    * [Deployment](#deployment)
+    * [Credits](#credits)
 
 # Ux
 
@@ -77,6 +111,12 @@ I built my website by desktop size first and then downsized it to the smallest s
 |x-x-large    |  1770px    |
 
 # Wireframe
+
+I used Balsamic to create wireframes for my Website.I design wireframes for desktop design, tablet design and mobile design. Each wireframes is linked below.
+
+### [Desktop Wireframe](wireframe/hitting%20the%20apex%20Desktop.bmpr)
+### [Tablet Wireframe](wireframe/hitting%20the%20apex%20Tablet.bmpr)
+### [Mobile Wireframe](wireframe/hitting%20the%20apex%20mobile.bmpr)
 
 # Features
 
@@ -158,11 +198,29 @@ At lower screen size (970px) a scroll function will be place so that the table d
 
 ![Rider and Team Section Mobile](wireframe/rider%20and%20team-section-mobile.png)
 
+### Sign UP
+
 ![Sign Up Form](wireframe/sign-up%20section.png)
 
 ![Sign Up Form](wireframe/sign-up-section-large.png)
 
 ![Sign Up Form](wireframe/sign-up-form-x-small.png)
+
+### Footer
+
++ The footer contains social media links relevant to the website
+
+![Social Media](wireframe/footer.png)
+
++ The footer hover effect
+
+! [Socail Meida Hover](wireframe/footer-hover.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ## Features to Be Added
 
@@ -195,9 +253,18 @@ At lower screen size (970px) a scroll function will be place so that the table d
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 # Testing
 
 From testing the site, overall I feel the goal that I set out were met. The site is responsive to small devices(Galaxy fold, Iphone), medium devices (Ipad, Galaxy Tab), large devices(laptop, desktop.). Images size appropriately to the screen sizes staying in it aspect ratio and looking clear. Section stay center through responsive with layout staying consistent. The inforamtion is up to date and resembles the needs of the user.
+
+\
+&nbsp;
 
 Problem's that I experience during testing.
 
@@ -215,22 +282,44 @@ Problem's that I experience during testing.
 
 + Error's I encouted when I ran my CSS through validator w3 jigsaw were reorangise my overflow rule last in the upcoming section, a spell check in my .nav-menu, and deleting a word-break rule that was deprecated. I have 5 warnings for vender extension. [Result](wireframe/css%20validator.png "W3C CSS")
 
+\
+&nbsp;
 
 ## Unfixed Bugs 
 
 A bug that I encouted was having marign on the left or right of a table that was in scroll. If I had a margin on when the scroll appeared on lower screen size the table would overflow out of the margin set impeading the visual of the start row and the end row. To compromise I turned off margin left and right for visual structure inconsistency.
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 # Deployment
 
 Project was deployed on GitHub using the page feature.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 # Credits
 
 For Code
 * [Gaurav](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci)
 
+\
+&nbsp;
+
 For Content
 * [Moto GP](https://www.motogp.com/)
 * [Aprilia](https://www.aprilia.com/th_TH/aprilia-world/racing/aprilia-motogp-2021-race-gp-doha/)
 * [Garciarojals](https://www.garciarojals.com/motogp-champions-tower-replica)
 * [BT Sport](https://www.youtube.com/watch?v=vXwmGRtbNMc)
+
+\
+[Back to Top](#table-of-contents)
+\
+&nbsp;
