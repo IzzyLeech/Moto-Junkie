@@ -611,7 +611,7 @@ input,label {
 
 footer {
     width: 100%;
-    
+    border-top: 2px solid var(--jet-black);
 }
 
 #socials {
@@ -1056,7 +1056,7 @@ footer {
         width: 280px;
         height: 45vh;
         margin: auto;
-        top: 1rem;
+        top: 0rem;
         right: 0;
         position: relative;
         border-radius: 0;
