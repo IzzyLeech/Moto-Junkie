@@ -359,7 +359,7 @@ A bug that I encountered was having a margin on the left or right of a table tha
 
 # Deployment
 
-Project was deployed on GitHub using the page feature. Link to [Page](https://izzyleech.github.io/hitting-the-apex/"Hitting-the-Apex")
+Project was deployed on GitHub using the page feature. Link to [Page]("https://izzyleech.github.io/hitting-the-apex/"Hitting-the-Apex")
 
 \
 &nbsp;
