@@ -11,14 +11,14 @@ The website will demonstrate easily digestible information to quickly catch up o
 * [UX](#ux "UX")
     * [User Goals](#user-goals "User Goals")
     * [User Stories](#user-stories "User Stories")
-    * [Site Owners Goals](#site-owners-goals)
+    * [Site Owner Goals](#site-owner-goals)
     * [User Requirements and Expectations](#user-requirements-and-expectations)
          * [Requirements](#requirements)
          * [Expectations](#expectations)
      * [Design Choices](#design-choices)
         * [Fonts](#fonts)
         * [Icons](#icons)
-        * [Colours](#colours)
+        * [Colors](#colors)
         * [Structure](#structure)
     * [Wireframes](#wireframes)
     * [Features](#features)
@@ -68,13 +68,15 @@ The website will demonstrate easily digestible information to quickly catch up o
 * To have the website updated on the latest race.
 * To keep building on the Website in other areas of motorsports in the future.
 
+## User Requirements and Expectations
+
 ### Requirements
 
 * An easy flowing user interface that is usable on different screen sizes.
 * Concise up to date information on all the sections of the website.
 * Aesthetic pleasing structure of the website so users don't feel lost.
 
-### Expections
+### Expectations
 
 * I expect all information is up to date and correct.
 * I expect all navigation links to link to the correct part of the website.
@@ -83,6 +85,12 @@ The website will demonstrate easily digestible information to quickly catch up o
 * I expect the website to be visually appealing on all screen sizes.
 * I expect all information on the website to be relevant to Moto GP.
 * I expect the website to be free flowing in the nature of accessibility.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ## Design Choices
 
@@ -98,7 +106,7 @@ I have used Icons from [Font Awesome Library](https://fontawesome.com/[) and [Fl
 
 I used [Encycolorpedia](https://encycolorpedia.com/) to pick out colors for my website. The main color I used through  the website was electric lime #ccff00 a color that is synonymous to fans of Moto GP that represent the color of Valentino Rossi leathers  and bike fairings. To complement this color I used jet black #0A0A0A which scores a high contrast ratio on [Webaim](https://webaim.org/resources/contrastchecker/?fcolor=CCFF00&bcolor=0A0A0A). Using these two colors that work in function in reverse of foreground and background the user will not have difficult experience viewing the information of the website. I used blue lightning #3393FF for the hover effect on the navigation bar, the tables, the social inks, and the submit button. It was also implemented on borders to distinguish different sections of content. All of the rest of the colors that I used were to represent the podium positions for 1st(gold #D4AF37), 2nd(silver #C0C0C0), 3rd(bronze #cd7f32) and retired(violet #EE82EE).
 
-### Stucture
+### Structure
 
 I built my website by desktop size first and then downsized it to the smallest screen size of a Samsung Galaxy Fold (280px) 
 
@@ -110,13 +118,25 @@ I built my website by desktop size first and then downsized it to the smallest s
 |x-large      |  1548px    |
 |x-x-large    |  1770px    |
 
-# Wireframe
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Wireframes
 
 I used Balsamic to create wireframes for my Website.I design wireframes for desktop design, tablet design and mobile design. Each wireframes is linked below.
 
 ### [Desktop Wireframe](wireframe/hitting%20the%20apex%20Desktop.bmpr)
 ### [Tablet Wireframe](wireframe/hitting%20the%20apex%20Tablet.bmpr)
 ### [Mobile Wireframe](wireframe/hitting%20the%20apex%20mobile.bmpr)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 # Features
 
@@ -146,6 +166,12 @@ Mobile Devices
 
 Example of Hamburger Menu opened when clicked on a mobile device.
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 ### Landing Page
 
 The website opens to a large image to indicated to the user that it is a site for motocyling racing. There is welcome box giving detail of inforamtion that can be gather from the site and a link to encourage user to sign up for the newsletter. 
@@ -155,6 +181,12 @@ The website opens to a large image to indicated to the user that it is a site fo
 Example of the landing page on a mobile device
 
 ![Mobile Landing](wireframe/mobile-landing.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ### Info 
 
@@ -171,6 +203,12 @@ The second area championship leader will show the 1st 2nd and 3rd riders that ar
 The final area latest result will give inforamtion of the last races that was competed. An video will be showcase beside this area to show highlights of the race. Inforamtion showing in this section will include podium posistion, name of rider and bike of rider.
 
 ![latest Result](wireframe/result-section.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ### Tables
 
@@ -190,21 +228,45 @@ At lower screen size (970px) a scroll function will be place so that the table d
 
 ![Table Section with Scroll](wireframe/table-section-scroll.png)
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 ### Rider and Team
+
+The rider and team section will give user inforamtion on all the riders participating in the championship. It will detail the team that the rider is a part of, give a breif detail on the rider and an image of the rider.
 
 ![Rider and Team Section](wireframe/rider-team-section.png)
 
+The rider and team section on tablet screen (1548px)
+
 ![Rider and Team Section Tablet](wireframe/rider-team-section-tablet.png)
+
+The rider and team section on mobile screen (570px)
 
 ![Rider and Team Section Mobile](wireframe/rider%20and%20team-section-mobile.png)
 
 ### Sign UP
 
+The Newsletter section will give user the opportunity to interracted with the website. The user can enter their detail to sign up for a weekly newsletter for the purpose of staying up to date with the content of the site.  
+
 ![Sign Up Form](wireframe/sign-up%20section.png)
+
+Newsletter section on tablet (970px) with the background made transparent on the form so the background image bleeds through.
 
 ![Sign Up Form](wireframe/sign-up-section-large.png)
 
+Newsletter section on mobile.(420px)
+
 ![Sign Up Form](wireframe/sign-up-form-x-small.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 ### Footer
 
@@ -214,7 +276,7 @@ At lower screen size (970px) a scroll function will be place so that the table d
 
 + The footer hover effect
 
-! [Socail Meida Hover](wireframe/footer-hover.png)
+![Socail Meida Hover](wireframe/footer-hover.png)
 
 \
 &nbsp;
@@ -241,7 +303,7 @@ At lower screen size (970px) a scroll function will be place so that the table d
 * [Flagicons](https://flagicons.lipis.dev/ "Flagicons")
 
 ## Tools
-* * [Gitpod](https://www.gitpod.io/ "Gitpod")
+*  [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Encycolorpedia](https://encycolorpedia.com/ "Encycolorpedia")
 * [iLoveIMG](https://www.iloveimg.com/ "iLoveImg")
 * [WebAim](https://webaim.org/ "WebAim")
@@ -278,7 +340,7 @@ Problem's that I experience during testing.
 
 +  When deploying my site to github pages, I encoutered the problem of my styelsheet not linking to my Html. The problem occured from my assets folder being capitalize. I first change the "a" to uppercase so It would link, but sticking to industry standard of having dictoerys in lowercase. I uses the git command of git mv casesensitive tmp,git mv tmp CaseSensitive to fix the problem.
 
-+ Error's I encounted when I ran my HTML through validator w3 were using the <bold> element in my <th> element which is by default already a style of the element. Adding px to my width and height img tags, leaving my ACTION in my FORM element empty and leaving my SRCSET empty in my img tag. To fix these error's I deleted all the inappropiate values that were needed. [Result](wireframe/html%20validator.png ""W3C HTML) 
++ Error's I encounted when I ran my HTML through validator w3 were using the <bold> element in my <th> element which is by default already a style of the element. Adding px to my width and height img tags, leaving my ACTION in my FORM element empty and leaving my SRCSET empty in my img tag. To fix these error's I deleted all the inappropiate values that were needed. [Result](wireframe/html%20validator.png "W3C HTML") 
 
 + Error's I encouted when I ran my CSS through validator w3 jigsaw were reorangise my overflow rule last in the upcoming section, a spell check in my .nav-menu, and deleting a word-break rule that was deprecated. I have 5 warnings for vender extension. [Result](wireframe/css%20validator.png "W3C CSS")
 
