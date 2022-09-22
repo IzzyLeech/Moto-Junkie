@@ -639,6 +639,8 @@ footer {
 
 @media  only screen and (max-width:1770px) {
 
+    /*Tables*/
+
     #table-2 {
         position: relative;
         bottom: -12px;
@@ -647,6 +649,8 @@ footer {
 }
 
 @media  only screen and (max-width:1548px) {
+
+    /*Tables*/
 
     #table{
         height: 100%;
@@ -668,6 +672,8 @@ footer {
         margin-top: 0;
         margin-right: 4rem;
     }
+
+    /*Rider and Team*/
 
     #riderandteam .row {
         display: flex;
@@ -758,6 +764,8 @@ footer {
 
 @media only screen and (max-width:970px) {
 
+    /*Main Image*/
+
     #welcome {
         width: 30rem;
     }
@@ -770,7 +778,7 @@ footer {
         top: 275px;
     }
 
-
+    /*Tables*/
 
     #table-1 {
         display: block;
@@ -790,6 +798,8 @@ footer {
 
         margin-left: 0;
     }
+
+    /*Newsletter*/
 
     #sign-up #signup-form form .grid-row .grid-column h2 {
         font-size: 20px;
@@ -811,6 +821,8 @@ footer {
 
 @media only screen and (max-width:692px) {
 
+    /*Rider and Team*/
+
     .rider{
         margin-right: 0;
     }
@@ -819,9 +831,13 @@ footer {
 
 @media only screen and (max-width:570px) {
 
+    /*Header*/
+
     .logo {
         font-size: 3rem;
     }
+
+    /*Main Content*/
 
     #up-races {
         min-width: 0;
@@ -844,6 +860,8 @@ footer {
         font-size: 3.5rem;
     }
 
+    /*Rider and Team*/
+
     .rider-sec {
         display: flex;
         flex-direction: column;
@@ -864,6 +882,8 @@ footer {
         
     }
 
+    /*Newsletter*/
+
     #signup-form {
         top: 1rem;
         right: 8rem;
@@ -881,9 +901,13 @@ footer {
 
 @media only screen and (max-width:420px)  {
 
+    /*Header*/
+
     .logo{
         font-size: 2rem;
     }
+
+    /*Main Image*/
 
     #main-img {
         height: 70vh;
@@ -920,9 +944,12 @@ footer {
     #main-content h2 {
         font-size: 2.5rem;
     }
+
     .section-head {
         font-size: 18px;
     }
+
+    /*Main Content*/
 
     #up-races {
         font-size: 2rem;
@@ -943,6 +970,42 @@ footer {
         width: 270px;
     }
 
+    .leader img {
+        float: none;
+        position: relative;
+        right: 20px;
+    }
+    
+    .leader-info {
+        font-size: 11px;
+        top: 0rem;
+        right: -84px;
+    }
+    
+    .position-1st {
+        top: 70%;
+    }
+    
+    .position-2nd {
+        top: 70%;
+    }
+    
+    .position-3rd {
+        top: 70%;
+    }
+    
+    .result img {
+        float: none;
+        position: relative;
+        right: 20px;
+    }
+    
+    iframe {
+        height: 50rem;
+    }
+
+    /*Tables*/
+
     #table-2 {
         position:relative;
         right: 4rem;
@@ -952,39 +1015,7 @@ footer {
         font-size: 16px;
     }
 
-    .leader img {
-        float: none;
-        position: relative;
-        right: 20px;
-    }
-
-    .leader-info {
-        font-size: 11px;
-        top: 0rem;
-        right: -84px;
-    }
-
-    .position-1st {
-        top:70%;
-    }
-
-    .position-2nd {
-        top: 70%;
-    }
-
-    .position-3rd {
-        top: 70%;
-    }
-
-    .result img {
-        float: none;
-        position: relative;
-        right: 20px;    
-    }
-
-    iframe{
-        height: 50rem;
-    }
+    /*Rider and Team*/
 
     .team-head {
         font-size: 10px;
@@ -996,6 +1027,8 @@ footer {
     .rider{
         font-size: 12px;
     }
+
+    /*Newsletter*/
 
     #form-image {
         height: 45vh;
