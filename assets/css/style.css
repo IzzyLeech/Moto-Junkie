@@ -70,7 +70,7 @@ nav {
 .nav-menu{
     display: flex;
     justify-content: space-between;
-    align-items: cente;
+    align-items: center;
 
     background-color: var(--electric-lime);
 }
@@ -247,14 +247,15 @@ nav {
 
     margin-bottom: 30px;
     border: 2px solid var(--blue-lightning);
+
+    text-align: center;
+    font-size: 3rem;
     
     background-color: var(--jet-black);
     color: var(--electric-lime);
-    border: 4px solid var();
+    border: 4px solid var(--blue-lightning);
     overflow: scroll;
-    scroll-behavior: smooth;
-    text-align: center;
-    font-size: 3rem;
+    scroll-behavior: smooth; 
 }
 
 #up-races p {
@@ -475,7 +476,6 @@ td:nth-child(2) {
     padding: 2.5rem;
     margin-left: 5rem;
     margin-right: 6rem;
-    word-break: break-word;
     border: 1px solid var(--blue-lightning);
     font-size: 13px;
 }
@@ -890,7 +890,8 @@ footer {
 
     #text-box {
         left: 1rem;
-        top: 520px;
+        top: 220px;
+        font-size: 10px;
     }
 
     #main-content .row {
@@ -987,11 +988,16 @@ footer {
         width: 200px;
         margin: auto;
         top: -1rem;
-        right: -2rem;
+        right: 5px;
+    }
+
+    .grid-column {
+        padding: 1px 5px;
     }
 
     label,.text-input {
         width: 100%;
+        font-size: 10px;
     }
 
 }

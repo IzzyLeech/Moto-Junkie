@@ -3,7 +3,7 @@
 # Hitting The Apex
 # Goal for project
 The Purpose of Hitting The Apex is to created a website that caters to the needs of fans of Moto GP.
-The website will demonstrate easy digestable inforamtion to quickly cath up on the going ons of the current season, that current fans will be able to quickly catch up on and also will be easily understanble for newer fans of Moto Gp. The Website will give inforamtion on the current 2022 championship. 
+The website will demonstrate easy digestable inforamtion to quickly cath up on the going ons of the current season, that current fans will be able to quickly catch up on and also will be easily understanble for newer fans of Moto Gp. The Website will give inforamtion on the current 2022 championship. The site will also give user the option to sign up to the weekly newsletter, so they can make contact with the website on a weekly basis.  
 
 # Ux
 
@@ -164,6 +164,14 @@ At lower screen size (970px) a scroll function will be place so that the table d
 
 ![Sign Up Form](wireframe/sign-up-form-x-small.png)
 
+## Features to Be Added
+
++ Make the table more responsive by adding collapsible colums and rows.
++ Archiving table's to a section for when a new season start so user can can look back on past season.
++ Add a shop to sell merchandise linked to the website.
++ To add columnist to write opinion pieces that can be implemented to a blog section.
++ A gallery section of photes taking at races.
+
 ## Languages
 * [HTML](https://www.w3schools.com/html/ "HTML")
 * [CSS](https://www.w3schools.com/css/ "CSS")
@@ -188,6 +196,14 @@ At lower screen size (970px) a scroll function will be place so that the table d
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 
 # Testing
+
+From testing the site, overall I feel the goal that I set out were met. The site is responsive to small devices(Galaxy fold, Iphone), medium devices (Ipad, Galaxy Tab), large devices(laptop, desktop.). Images size appropriately to the screen sizes staying in it aspect ratio and looking clear. Section stay center through responsive with layout staying consistent. The inforamtion is up to date and resembles the needs of the user.
+
+Problem's that I experience during testing.
+
+I had to add an extra media query of max-width 1770px to fix an issues of the annotaion table not staying inline with constructor table that would happen when the screen width  went below 1770px.
+
+I added grid posistion to my form content for better reponsive after testing with standard box model wasnt effiecent enough.
 
 
 
