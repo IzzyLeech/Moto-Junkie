@@ -135,8 +135,8 @@ nav {
     font-size: 14px;
     line-height: 25px;
     border: 1px solid var(--blue-lightning);
-    padding-bottom: .5%;
-    padding-left: 25px;
+    padding: 3rem;
+    
     position: absolute;
     left: 20px;
     top:30px;
@@ -156,12 +156,12 @@ nav {
     background-color: var(--jet-black);
     color: var(--electric-lime);
     width: 15rem;
-    height: 9rem;
+    height: 15rem;
     text-align: center;
     border: 1px solid var(--blue-lightning);
-    padding-bottom: 5%;
+    padding: 2rem;
     position: absolute;
-    top: 230px;
+    top: 330px;
     left: 20px;
 }
 
@@ -475,9 +475,10 @@ td:nth-child(2) {
 }
 
 .rider-sec {
-    width: 99%;
+    width: 98%;
     display: flex;
     margin-top: 2rem;
+    padding: 2rem;
     border: 1px solid var(--blue-lightning);
 
     background-color: var(--jet-black);
@@ -497,6 +498,7 @@ td:nth-child(2) {
     margin-right: 6rem;
     border: 1px solid var(--blue-lightning);
     font-size: 13px;
+    
 }
 
 .rider img {
@@ -680,6 +682,16 @@ footer {
         flex-direction: column;
     }
 
+    .rider img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rider {
+        text-align: center;
+    }
+
 }
 
 @media only screen and (max-width:1330px) {
@@ -774,9 +786,6 @@ footer {
         font-size: 15px;
     }
     
-    #text-box {
-        top: 275px;
-    }
 
     /*Tables*/
 
@@ -819,7 +828,7 @@ footer {
     }
 }
 
-@media only screen and (max-width:692px) {
+@media only screen and (max-width:800px) {
 
     /*Rider and Team*/
 
@@ -829,7 +838,7 @@ footer {
 
 }
 
-@media only screen and (max-width:570px) {
+@media only screen and (max-width:610px) {
 
     /*Header*/
 
@@ -917,6 +926,7 @@ footer {
     #welcome {
         width: 70%;
         height: auto;
+        padding: 2rem;
         top: .5rem;
         left: 1rem;
         font-size: 9px;
@@ -933,7 +943,7 @@ footer {
 
     #text-box {
         left: 1rem;
-        top: 220px;
+        top: 460px;
         font-size: 10px;
     }
 
@@ -1024,6 +1034,10 @@ footer {
         margin-right: 6rem;
     }
 
+    .rider-sec {
+        padding: .5rem;
+    }
+
     .rider{
         font-size: 12px;
     }
@@ -1031,16 +1045,21 @@ footer {
     /*Newsletter*/
 
     #form-image {
-        height: 45vh;
-        background-size: 100% 45vh;
+        height: 0;
+        background-size: 0 0;
+        background-image: none;
         }
 
     #signup-form {
-        padding: 20px;
-        width: 200px;
+        background-color: var(--jet-black);
+        padding: 5rem;
+        width: 280px;
+        height: 45vh;
         margin: auto;
-        top: -1rem;
-        right: 5px;
+        top: 1rem;
+        right: 0;
+        position: relative;
+        border-radius: 0;
     }
 
     .grid-column {

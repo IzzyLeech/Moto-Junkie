@@ -113,10 +113,11 @@ I built my website by desktop size first and then downsized it to the smallest s
 |Screen Size  | Breakpoint |
 |-------------|------------|
 |x-small      |  420px     |
-|small        |  570px     |
-|large        |  1330px    |
-|x-large      |  1548px    |
-|x-x-large    |  1770px    |
+|small        |  610px     |
+|medium       |  800px     |
+|large        |  970px     |
+|x-large      |  1330px    |
+|x-x-large    |  1548px    |
 
 \
 &nbsp;
@@ -215,15 +216,15 @@ The table section gives a detailed account of the rider championship table and t
 
 ![Table Section](wireframe/table-section.png)
 
-Table at extra extra large (1770px)
+Table at (1770px)
 
 ![Table Section x x large](wireframe/table%20xx%20large.png)
 
-Table at extra large switch column (1548px)
+Table at  extra extra large switch column (1548px)
 
 ![Table Section x large](wireframe/table%20x%20large.png)
 
-At lower screen size (970px) a scroll function will be place so that the table doesnt shrink so the inforamtion doesnt become unviewable.
+At large screen size (970px) a scroll function will be place so that the table doesnt shrink so the inforamtion doesnt become unviewable.
 
 ![Table Section with Scroll](wireframe/table-section-scroll.png)
 
@@ -243,7 +244,7 @@ The rider and team section on tablet screen (1548px)
 
 ![Rider and Team Section Tablet](wireframe/rider-team-section-tablet.png)
 
-The rider and team section on mobile screen (570px)
+The rider and team section on mobile screen (610px)
 
 ![Rider and Team Section Mobile](wireframe/rider%20and%20team-section-mobile.png)
 
