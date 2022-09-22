@@ -861,6 +861,14 @@ footer {
         min-width: 0;
     }
 
+    #trophy {
+        height: 50vh;
+    }
+
+    #track {
+        height: 50vh;
+    }
+
     .result {
         margin-bottom: 2rem;
     }
