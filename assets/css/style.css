@@ -586,6 +586,8 @@ input,label {
     color: var(--jet-black);
 }
 
+/*Footer*/
+
 footer {
     width: 100%;
     
@@ -843,6 +845,19 @@ footer {
         
     }
 
+    #signup-form {
+        top: 1rem;
+        right: 8rem;
+        margin: 0 0;
+        padding: 0 0;
+        width: 80%;
+    }
+
+    #sign-up #signup-form form .grid-row .grid-column h2 {
+        font-size: 17px;
+        width: 75%;
+}
+
 }
 
 @media only screen and (max-width:420px)  {
@@ -850,6 +865,11 @@ footer {
     .logo{
         font-size: 2rem;
     }
+
+    #main-img {
+        height: 70vh;
+        background-size: 100% 70vh;
+        }
 
     #welcome {
         width: 70%;
@@ -870,7 +890,7 @@ footer {
 
     #text-box {
         left: 1rem;
-        top: 630px;
+        top: 520px;
     }
 
     #main-content .row {
@@ -957,12 +977,17 @@ footer {
         font-size: 12px;
     }
 
+    #form-image {
+        height: 45vh;
+        background-size: 100% 45vh;
+        }
+
     #signup-form {
         padding: 20px;
         width: 200px;
         margin: auto;
-        top: 1rem;
-        right: 0rem;
+        top: -1rem;
+        right: -2rem;
     }
 
     label,.text-input {

@@ -24,7 +24,7 @@ The website will demonstrate easy digestable inforamtion to quickly cath up on t
 * As a user, I want to know who has place on the podium on the last races.
 * As a user, I want to easily navigate through the website.
 * As a user, I want to know if the website has soical media and where to access it
-*As a user, I want to  know the points scored on all races for each rider. 
+* As a user, I want to  know the points scored on all races for each rider. 
 
 ## Site Owner Goals
 * Promote the sport of moto racing.
@@ -165,7 +165,32 @@ At lower screen size (970px) a scroll function will be place so that the table d
 ![Sign Up Form](wireframe/sign-up-form-x-small.png)
 
 ## Languages
-*
+* [HTML](https://www.w3schools.com/html/ "HTML")
+* [CSS](https://www.w3schools.com/css/ "CSS")
+* [JavaScript](https://www.w3schools.com/js/default.asp "JS")
+
+## Libraries and Framework
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+* [Flagicons](https://flagicons.lipis.dev/ "Flagicons")
+
+## Tools
+* * [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [Encycolorpedia](https://encycolorpedia.com/ "Encycolorpedia")
+* [iLoveIMG](https://www.iloveimg.com/ "iLoveImg")
+* [WebAim](https://webaim.org/ "WebAim")
+* [picresize](https://picresize.com/ "picresize")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+* [Flagicons](https://flagicons.lipis.dev/ "Flagicons")
+* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+
+# Testing
+
+
+
 
 
 Visaul aid will be demonstrated in  the wireframe Balsamiq
