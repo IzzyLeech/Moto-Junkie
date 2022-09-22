@@ -205,7 +205,11 @@ I had to add an extra media query of max-width 1770px to fix an issues of the an
 
 I added grid posistion to my form content for better reponsive after testing with standard box model wasnt effiecent enough.
 
+I restructured my main-content's flex from originally being flex wrap on larger screen to change it to a grid and column flex hybrid. I used flew wrap on rows and flex basis on the column so it would be better reponsive on larger screen. It would switch to column on smaller screen with media query. This was also implemented on the rider section.
 
+Error's I encounted when I ran my HTML through validator w3 were using the <bold> element in my <th> element which is by default already a style of the element. Adding px to my width and height img tags, leaving my ACTION in my FORM element empty and leaving my SRCSET empty in my img tag. To fix these error's I deleted all the inappropiate values that were needed.
+
+Error's I encouted when I ran my CSS through validator w3 jigsaw were reorangise my overflow rule last in the upcoming section, a spell check in my .nav-menu, and deleting a word-break rule that was deprecated. I have 5 warnings for vender extension. 
 
 
 
